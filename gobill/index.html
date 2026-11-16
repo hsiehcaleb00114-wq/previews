@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Go比爾民宿｜網站提案預覽</title>
+<style>
+:root { --paper:#f4f1ea; --ink:#1d1f1c; --muted:#5b5f57; --accent:#2f5d50; --card:#fffdf8; --line:#dcd6c8; }
+@media (prefers-color-scheme: dark) { :root { --paper:#161816; --ink:#eceae4; --muted:#a6a99f; --accent:#7fb3a2; --card:#1f221f; --line:#333731; } }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--paper); color:var(--ink); font:16px/1.7 "Noto Sans TC", system-ui, sans-serif; }
+a { color:inherit; }
+.bar { position:sticky; top:0; z-index:5; background:#c8553d; color:#fff; font-size:14px; padding:8px 16px; text-align:center; }
+.wrap { max-width:1080px; margin:0 auto; padding:0 16px; }
+header.hero { padding:56px 0 32px; }
+.area { color:var(--accent); font-weight:600; margin:0 0 8px; }
+h1 { font-size:clamp(36px,7vw,72px); line-height:1.1; margin:0 0 16px; letter-spacing:-0.01em; }
+.tag { font-size:clamp(18px,2.4vw,24px); margin:0 0 24px; max-width:28em; }
+.cta { display:flex; flex-wrap:wrap; gap:12px; }
+.btn { display:inline-flex; align-items:center; min-height:48px; padding:0 22px; border-radius:999px; background:var(--accent); color:#fff; text-decoration:none; font-weight:600; }
+.btn.ghost { background:transparent; color:var(--ink); border:1.5px solid var(--ink); }
+.ph { background:repeating-linear-gradient(45deg, transparent 0 12px, rgba(127,127,127,.08) 12px 24px), var(--card); border:1.5px dashed var(--line); border-radius:14px; display:grid; place-items:center; color:var(--muted); font-size:15px; min-height:180px; }
+.gallery { display:grid; grid-template-columns:2fr 1fr; grid-template-rows:200px 200px; gap:10px; margin:8px 0 56px; }
+.gallery .ph:first-child { grid-row:1 / 3; }
+section { padding:40px 0; border-top:1px solid var(--line); }
+h2 { font-size:clamp(26px,3.6vw,38px); margin:0 0 20px; }
+.intro { font-size:19px; max-width:36em; margin:0; }
+.rooms { display:grid; grid-template-columns:repeat(auto-fill, minmax(min(260px,100%),1fr)); gap:16px; }
+.room { background:var(--card); border-radius:16px; overflow:hidden; border:1px solid var(--line); }
+.room .ph { border:0; border-radius:0; min-height:160px; }
+.rb { padding:16px 18px 20px; }
+.room h3 { margin:0; font-size:20px; }
+.ppl { color:var(--muted); margin:2px 0 10px; }
+dl { display:flex; gap:24px; margin:0; }
+dt { color:var(--muted); font-size:14px; }
+dd { margin:0; font-size:20px; font-weight:700; }
+.note { color:var(--muted); font-size:14px; margin:8px 0 0; }
+.cols { display:grid; grid-template-columns:1fr 1fr; gap:32px; }
+ul { margin:0; padding-left:1.2em; }
+li { margin:6px 0; }
+iframe { width:100%; height:320px; border:0; border-radius:14px; }
+.contact p { margin:4px 0; font-size:18px; }
+footer { padding:32px 0 64px; color:var(--muted); font-size:14px; border-top:1px solid var(--line); }
+@media (max-width:720px) {
+  .gallery { grid-template-columns:1fr 1fr; grid-template-rows:180px 120px; }
+  .gallery .ph:first-child { grid-column:1 / 3; grid-row:auto; }
+  .cols { grid-template-columns:1fr; }
+}
+</style>
+</head>
+<body>
+<div class="bar">網站提案預覽・不是 Go比爾民宿 的官方網站・資料取自公開網路，請業者確認</div>
+<div class="wrap">
+  <header class="hero">
+    <p class="area">信義・望鄉部落</p>
+    <h1>Go比爾民宿</h1>
+    <p class="tag">住進布農族望鄉部落，隔天出發郡大山</p>
+    <div class="cta"><a class="btn" href="tel:0978414696">打電話訂房</a><a class="btn ghost" href="#rooms">看房型和價格</a></div>
+  </header>
+  <div class="gallery"><div class="ph">放你們的外觀照片</div><div class="ph">環境照片</div><div class="ph">早餐或特色照片</div></div>
+
+  <section><h2>關於我們</h2><p class="intro">在信義鄉望鄉部落（Kalibuan）裡的布農族民宿。很多登山客在攻郡大山前一晚住這裡，也有家庭和團體來體驗部落生活。有四人房，也有適合團體的通鋪。</p></section>
+
+  <section id="rooms"><h2>房型與價格</h2><div class="rooms">
+      <article class="room">
+        <div class="ph">房間照片</div>
+        <div class="rb">
+          <h3>四人房</h3>
+          <p class="ppl">4 人</p>
+          <dl><div><dt>平日</dt><dd>NT$2,600</dd></div><div><dt>假日</dt><dd>—</dd></div></dl>
+          <p class="note">舊資料，價格請洽</p>
+        </div>
+      </article>
+      <article class="room">
+        <div class="ph">房間照片</div>
+        <div class="rb">
+          <h3>六人房</h3>
+          <p class="ppl">6 人</p>
+          <dl><div><dt>平日</dt><dd>NT$3,400</dd></div><div><dt>假日</dt><dd>—</dd></div></dl>
+          <p class="note">舊資料，價格請洽</p>
+        </div>
+      </article>
+      <article class="room">
+        <div class="ph">房間照片</div>
+        <div class="rb">
+          <h3>家庭房</h3>
+          <p class="ppl"></p>
+          <dl><div><dt>平日</dt><dd>NT$7,000</dd></div><div><dt>假日</dt><dd>—</dd></div></dl>
+          <p class="note">舊資料，價格請洽</p>
+        </div>
+      </article>
+      <article class="room">
+        <div class="ph">房間照片</div>
+        <div class="rb">
+          <h3>通鋪</h3>
+          <p class="ppl"></p>
+          <dl><div><dt>平日</dt><dd>NT$500</dd></div><div><dt>假日</dt><dd>—</dd></div></dl>
+          <p class="note">每人，含早餐（舊資料）</p>
+        </div>
+      </article></div></section>
+
+  <section class="cols">
+    <div><h2>住宿須知</h2><ul><li>登山客可提早詢問出發時間與早餐</li><li>團體包棟請洽詢</li></ul></div>
+    <div><h2>附近景點</h2><ul><li>郡大山登山口</li><li>望鄉部落</li><li>東埔溫泉</li></ul></div>
+  </section>
+
+  <section class="cols">
+    <div><h2>交通</h2><iframe loading="lazy" title="地圖" src="https://www.google.com/maps?q=%E5%8D%97%E6%8A%95%E7%B8%A3%E4%BF%A1%E7%BE%A9%E9%84%89%E6%9C%9B%E5%92%8C%E5%B7%B710-29%E8%99%9F&output=embed"></iframe></div>
+    <div class="contact"><h2>聯絡和訂房</h2>
+      <p>地址：南投縣信義鄉望和巷10-29號</p>
+      <p>電話：0978-414696</p>
+      
+      <p>Email：<a href="mailto:Kalibuan.coop@gmail.com">Kalibuan.coop@gmail.com</a></p>
+      <div class="cta" style="margin-top:16px"><a class="btn" href="tel:0978414696">打電話訂房</a></div>
+    </div>
+  </section>
+
+  <footer>這是點子成形（旻翰）製作的網站提案預覽，資料來源：Booking.com、望鄉部落合作社頁面、部落客文章等公開頁面。價格和房型可能已經變動，正式上線前會全部和你們確認，照片也會換成你們自己的。</footer>
+</div>
+</body>
+</html>

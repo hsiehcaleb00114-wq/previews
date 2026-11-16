@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>無堂｜草屯肉蛋吐司</title>
+<meta name="description" content="草屯虎山路市場裡的手作早餐店。去邊白土司夾醃過的現煎里肌和滑嫩歐姆蛋，還有法式脆堡和巨無霸土司。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f3f1ea; --surface: #e9e3cf; --ink: #2a2016; --muted: #4a3f31;
+  --accent: #2a2016; --on: #f6cf3a; --hl: #b98a00; --dark: #2a2016; --on-dark: #f3f1ea;
+  --head: "Noto Sans TC", sans-serif; --body: "Noto Sans TC", system-ui, sans-serif;
+  --w: 1200px; --m: clamp(16px, 4vw, 40px); --gap: clamp(16px, 2vw, 24px); --sec: clamp(56px, 7vw, 96px);
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 400 17px/1.65 var(--body); }
+p, li, summary, figcaption, td, th { text-wrap: pretty; }
+h1, h2, h3, .tagline { text-wrap: balance; word-break: keep-all; overflow-wrap: anywhere; }
+.info b, .points b, .cat h3, .visit th { word-break: keep-all; }
+img { display: block; max-width: 100%; height: auto; }
+a { color: inherit; }
+svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; flex: none; }
+:focus-visible { outline: 3px solid var(--hl); outline-offset: 3px; }
+.wrap { max-width: calc(var(--w) + 2 * var(--m)); margin: 0 auto; padding: 0 var(--m); }
+.proposal { background: #b8452f; color: #fff; font-size: 14px; text-align: center; padding: 8px 16px; margin: 0; }
+.motif { height: 14px; background: repeating-linear-gradient(90deg, #f2c230 0 52px, var(--bg) 52px 60px); } /* taste-skill-ignore: hard-stop stripe */
+
+header.top { position: sticky; top: 0; z-index: 10; background: var(--bg); }
+header.top .wrap { display: flex; align-items: center; gap: 28px; min-height: 64px; }
+.wm { font: 700 22px/1 var(--head); text-decoration: none; margin-right: auto; }
+.wm small { font: 500 15px var(--body); color: var(--muted); margin-left: 10px; letter-spacing: .02em; }
+header.top nav { display: flex; gap: 22px; font-weight: 500; }
+header.top nav a { text-decoration: none; padding: 10px 0; }
+header.top nav a:hover { color: var(--hl); }
+
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 48px; padding: 0 22px; border-radius: 999px; background: var(--accent); color: var(--on); font-weight: 700; text-decoration: none; border: 0; font-size: 16px; cursor: pointer; transition: transform .15s ease, opacity .15s ease; }
+.btn:hover { opacity: .88; }
+.btn:active { transform: scale(.97); }
+.btn.ghost { background: var(--surface); color: var(--ink); }
+
+/* hero */
+.hero { display: grid; grid-template-columns: 1fr 1.1fr; gap: clamp(24px, 4vw, 56px); align-items: center; padding-top: clamp(24px, 4vw, 48px); }
+.hero .txt { container-type: inline-size; min-width: 0; }
+.hero h1 { font: 700 min(108px, 7.4vw, calc(100cqi / var(--n) * .94))/1.05 var(--head); margin: 0 0 18px; letter-spacing: .02em; white-space: nowrap; }
+.hero h1 span { display: block; font: 500 clamp(17px, 1.4vw, 20px)/1.4 var(--body); letter-spacing: .02em; margin-top: 14px; color: var(--muted); }
+.hero .tagline { font: 700 clamp(24px, 2.4vw, 32px)/1.35 var(--head); margin: 0 0 12px; max-width: 18em; text-wrap: balance; }
+.hero .lead { font-size: clamp(17px, 1.4vw, 19px); margin: 0 0 20px; max-width: 34em; }
+.status { display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center; margin: 0 0 24px; font-weight: 500; }
+.status .dot { display: inline-flex; align-items: center; gap: 8px; }
+.status .dot::before { content: ""; width: 10px; height: 10px; border-radius: 50%; background: #3f9a5b; }
+.status .dot.closed::before { background: #c0533b; }
+.status .rate b { color: var(--hl); }
+.cta { display: flex; flex-wrap: wrap; gap: 10px; }
+.mosaic { display: grid; grid-template-columns: 2fr 1fr; grid-template-rows: repeat(3, 1fr); gap: 8px; aspect-ratio: 5 / 4; }
+.mosaic img { width: 100%; height: 100%; object-fit: cover; border-radius: 10px; }
+.mosaic .m0 { grid-row: 1 / 4; }
+
+/* info strip */
+.info { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: clamp(32px, 4vw, 48px); }
+.info > div { background: var(--surface); border-radius: 10px; padding: 16px 18px; display: flex; gap: 12px; align-items: flex-start; }
+.info svg { margin-top: 3px; color: var(--hl); }
+.info b { display: block; font-size: 16px; }
+.info span { font-size: 16px; color: var(--muted); }
+
+section { padding-top: var(--sec); }
+h2 { font: 700 clamp(28px, 3vw, 40px)/1.2 var(--head); margin: 0 0 20px; }
+
+/* about */
+.about { display: grid; grid-template-columns: 1.1fr 1fr; gap: clamp(24px, 4vw, 56px); align-items: center; }
+.about p.txt { margin: 0 0 20px; font-size: 18px; }
+.points { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.points li { background: var(--surface); border-radius: 10px; padding: 12px 16px; display: grid; grid-template-columns: 6.5em 1fr; gap: 14px; align-items: baseline; }
+.points b { min-width: 7em; }
+.points span { color: var(--muted); }
+.about img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 12px; }
+
+/* menu */
+.menu-grid { display: grid; grid-template-columns: 1fr 360px; gap: var(--gap); align-items: start; }
+.cats { columns: 2 280px; column-gap: var(--gap); }
+.menu-grid.solo { grid-template-columns: 1fr; }
+.menu-grid.solo .cats { columns: 3 260px; }
+.menu-grid.solo .cats.c3 { grid-template-columns: repeat(3, 1fr); }
+.menu-grid.solo .cats.c3 .cat:nth-child(3) { grid-column: auto; }
+.cats.c3 { columns: auto; display: grid; grid-template-columns: 1fr 1fr; gap: 0 var(--gap); }
+.cats.c3 .cat:nth-child(3) { grid-column: 1 / -1; }
+@media (max-width: 760px) { .cats.c3 { grid-template-columns: 1fr; } }
+.cat { break-inside: avoid; background: var(--surface); border-radius: 12px; padding: 18px 20px 12px; margin-bottom: var(--gap); }
+.cat h3 { font: 700 20px/1.3 var(--head); margin: 0 0 8px; display: flex; align-items: baseline; gap: 10px; }
+.cat h3 small { font: 500 16px var(--body); color: var(--muted); }
+.cat ul { list-style: none; margin: 0; padding: 0; }
+.cat li { display: flex; justify-content: space-between; gap: 12px; padding: 6px 0; }
+.cat em { display: block; font-style: normal; font-size: 16px; color: var(--muted); }
+.cat .p { font-weight: 700; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.mnote { font-size: 16px; color: var(--muted); margin: 0; }
+
+.widget { position: sticky; top: 80px; background: var(--dark); color: var(--on-dark); border-radius: 14px; padding: 22px; }
+.widget h3 { font: 700 22px/1.3 var(--head); margin: 0 0 4px; }
+.widget .wsub { margin: 0 0 14px; font-size: 16px; }
+.widget .f, .widget legend { display: block; font-weight: 700; font-size: 16px; margin: 14px 0 8px; padding: 0; }
+.widget fieldset { border: 0; margin: 0; padding: 0; }
+.widget select { width: 100%; min-height: 48px; font: inherit; font-size: 16px; padding: 0 12px; border-radius: 8px; border: 0; background: var(--on-dark); color: var(--dark); }
+.adds { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; font-size: 16px; }
+.adds label { display: flex; gap: 8px; align-items: center; min-height: 44px; padding: 6px 10px; border-radius: 8px; background: color-mix(in srgb, var(--on-dark) 12%, transparent); cursor: pointer; }
+.adds input { width: 18px; height: 18px; accent-color: var(--hl); }
+.ppl { display: flex; align-items: center; gap: 4px; }
+.ppl button { width: 44px; height: 44px; border-radius: 50%; border: 0; background: var(--on-dark); color: var(--dark); font-size: 22px; cursor: pointer; }
+.ppl output { min-width: 56px; text-align: center; font-weight: 700; font-size: 18px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chips label { position: relative; }
+.chips input { position: absolute; inset: 0; opacity: 0; cursor: pointer; margin: 0; }
+.chips span { display: inline-flex; align-items: center; min-height: 40px; padding: 0 14px; border-radius: 999px; background: color-mix(in srgb, var(--on-dark) 14%, transparent); font-size: 16px; transition: background .15s; }
+.chips input:checked + span { background: var(--on-dark); color: var(--dark); font-weight: 700; }
+.chips input:focus-visible + span { outline: 2px solid var(--on-dark); outline-offset: 2px; }
+.total { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin-top: 28px; padding: 14px 16px; border-radius: 10px; background: color-mix(in srgb, var(--on-dark) 12%, transparent); }
+.total b, .total .sum { font: 700 36px/1 var(--head); font-variant-numeric: tabular-nums; }
+.check { margin: 8px 0 0; font-size: 16px; }
+.kw { list-style: none; margin: 8px 0 18px; padding: 0; display: grid; gap: 12px; }
+.kw li { display: grid; grid-template-columns: 6.5em 1fr auto; gap: 10px; align-items: center; }
+.kw-w { font-weight: 700; font-size: 18px; }
+.kw-bar { height: 10px; border-radius: 999px; background: color-mix(in srgb, var(--on-dark) 18%, transparent); overflow: hidden; }
+.kw-bar i { display: block; height: 100%; background: var(--on-dark); border-radius: 999px; }
+.kw-n { font-variant-numeric: tabular-nums; }
+.widget .wbtn { background: var(--on-dark); color: var(--dark); }
+.check.no { color: #ffb4a3; }
+
+/* gallery */
+.gal { display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-rows: 200px; gap: 8px; }
+.gal figure { margin: 0; position: relative; overflow: hidden; border-radius: 10px; }
+.gal figure:nth-child(1) { grid-column: span 2; grid-row: span 2; }
+.gal img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s ease; }
+.gal figure:hover img { transform: scale(1.04); }
+.gal figcaption { position: absolute; left: 8px; bottom: 8px; background: var(--bg); color: var(--ink); font-size: 16px; padding: 4px 12px; border-radius: 999px; }
+
+/* faq + visit */
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: var(--gap); align-items: stretch; }
+.faq details { background: var(--surface); border-radius: 10px; margin-bottom: 8px; }
+.faq summary { cursor: pointer; list-style: none; padding: 14px 18px; font-weight: 700; display: flex; justify-content: space-between; gap: 12px; min-height: 48px; align-items: center; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; font-size: 22px; transition: transform .2s; }
+.faq details[open] summary::after { transform: rotate(45deg); }
+.faq details p { margin: 0; padding: 0 18px 16px; }
+.visit { background: var(--dark); color: var(--on-dark); border-radius: 14px; padding: clamp(22px, 3vw, 32px); display: flex; flex-direction: column; gap: 16px; }
+.visit h2 { margin: 0; }
+.visit table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; }
+.visit th, .visit td { text-align: left; padding: 8px 0; border-bottom: 1px solid color-mix(in srgb, var(--on-dark) 25%, transparent); }
+.visit th { font-weight: 500; width: 8em; }
+.visit .row { display: flex; gap: 10px; align-items: flex-start; margin: 0; }
+.visit .btns { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; }
+.visit .btn { background: var(--on-dark); color: var(--dark); }
+.visit .btn.ghost { background: transparent; color: var(--on-dark); box-shadow: inset 0 0 0 2px var(--on-dark); } /* taste-skill-ignore: outline button */
+.map { margin-top: var(--gap); border-radius: 14px; overflow: hidden; background: var(--surface); }
+.map iframe { display: block; width: 100%; height: 340px; border: 0; }
+
+footer { margin-top: var(--sec); padding: 28px 0 40px; background: var(--surface); }
+footer .wrap { display: grid; grid-template-columns: auto 1fr; gap: 8px 32px; align-items: center; }
+footer .fn { font: 700 22px var(--head); }
+@media (max-width: 760px) { footer .wrap { grid-template-columns: 1fr; } }
+footer p { margin: 0; font-size: 16px; color: var(--muted); max-width: 62ch; }
+
+.rv { opacity: 0; transform: translateY(16px); transition: opacity .5s ease, transform .5s ease; }
+.rv.in { opacity: 1; transform: none; }
+.no-js .rv { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) { .rv { opacity: 1; transform: none; transition: none; } .gal img { transition: none; } html { scroll-behavior: auto; } }
+
+@media (max-width: 1180px) { .info { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 960px) {
+  .menu-grid { grid-template-columns: 1fr; }
+  .widget { position: static; }
+  .info { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 760px) {
+  header.top nav { display: none; }
+  .hero { grid-template-columns: 1fr; }
+  .mosaic { aspect-ratio: 4 / 3; }
+  .hero h1 { font-size: min(72px, calc(100cqi / var(--n) * .94)); }
+  .about, .two { grid-template-columns: 1fr; }
+  .about img { order: -1; }
+  .gal { grid-template-columns: 1fr 1fr; grid-auto-rows: 150px; }
+  .cta .btn { flex: 1 1 auto; }
+}
+@media (max-width: 420px) { .info { grid-template-columns: 1fr; } .adds { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body class="no-js">
+<p class="proposal">網站提案預覽・不是無堂的官方網站・照片位置之後換成店裡的照片</p>
+<header class="top">
+  <div class="wrap">
+    <a class="wm" href="#top">無堂<small>手作肉排蛋吐司</small></a>
+    <nav aria-label="主選單"><a href="#about">關於</a><a href="#menu">菜單</a><a href="#photos">照片</a><a href="#visit">營業時間</a></nav>
+  </div>
+  <div class="motif" aria-hidden="true"></div>
+</header>
+
+<main id="top">
+<div class="wrap">
+  <div class="hero">
+    <div class="txt">
+      <h1 style="--n: 2">無堂<span>早餐・吐司・南投草屯</span></h1>
+      <p class="tagline">肉蛋吐司，夾的是現煎醃肉排</p>
+      <p class="lead">草屯虎山路市場裡的手作早餐店。去邊白土司夾醃過的現煎里肌和滑嫩歐姆蛋，還有法式脆堡和巨無霸土司。</p>
+      <p class="status"><span class="dot" id="open">週間營業中</span><span class="rate">Google <b>4.4</b> 分・593 則評論</span></p>
+      <div class="cta"><a class="btn" href="#menu">看菜單</a><a class="btn ghost" href="https://www.google.com/maps/search/?api=1&query=%E5%8D%97%E6%8A%95%E7%B8%A3%E8%8D%89%E5%B1%AF%E9%8E%AE%E8%99%8E%E5%B1%B1%E8%B7%AF487%E8%99%9F" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>導航</a></div>
+    </div>
+    <div class="mosaic"><img class="m0" src="img/p3.jpg" alt="肉蛋吐司和法式脆堡"><img class="m1" src="img/p7.jpg" alt="切開的吐司" loading="lazy"><img class="m2" src="img/p1.jpg" alt="黃色招牌的店門口" loading="lazy"><img class="m3" src="img/p6.jpg" alt="內用座位" loading="lazy"></div>
+  </div>
+
+  <div class="info">
+    <div class="rv"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><p style="margin:0"><b>06:00–12:30</b><span>週三～週日，週一、週二公休</span></p></div>
+    <div class="rv"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><p style="margin:0"><b>草屯鎮虎山路487號</b><span>南投縣</span></p></div>
+    <div class="rv"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg><p style="margin:0"><b><a href="tel:0968727254">0968-727-254</a></b><span>訂位和詢問</span></p></div>
+    <div class="rv"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M14.5 9.5c-.5-1-1.5-1.5-2.5-1.5-1.4 0-2.5.8-2.5 2s1 1.7 2.5 2 2.5.8 2.5 2-1.1 2-2.5 2c-1 0-2-.5-2.5-1.5M12 6.5v1.5M12 16v1.5"/></svg><p style="margin:0"><b>吐司 $30–140</b><span>套餐再加 $60</span></p></div>
+  </div>
+
+  <section id="about" aria-labelledby="h-about">
+    <div class="about">
+      <div class="rv">
+        <h2 id="h-about">早上六點開門的吐司店</h2>
+        <p class="txt">店面在一間大市場的鐵皮屋裡，第一次來不注意就會錯過。內用大約 11 個位置，座位掃 QR Code 點餐，再到櫃檯結帳。飲料先出、出餐很快，招牌肉蛋吐司的醃肉排是現煎的。</p>
+        <ul class="points"><li><b>肉蛋吐司</b><span>醃里肌現煎，夾滑嫩歐姆蛋</span></li><li><b>火山熔岩</b><span>四種天然起司包在歐姆蛋裡</span></li><li><b>手作抹醬</b><span>自製花生、芋泥、地瓜泥</span></li></ul>
+      </div>
+      <img class="rv" src="img/p4.jpg" alt="櫃檯和手寫的食材說明" loading="lazy">
+    </div>
+  </section>
+
+  <section id="menu" aria-labelledby="h-menu">
+    <h2 id="h-menu">菜單</h2>
+    <div class="menu-grid">
+      <div><div class="cats"><div class="cat rv"><h3>職人白土司<small>單點／套餐</small></h3><ul><li><span class="n">低脂培根蛋</span><span class="p">$45／$105</span></li><li><span class="n">招牌烤肉蛋</span><span class="p">$55／$115</span></li><li><span class="n">秘製丸醬肉蛋（辣）</span><span class="p">$60／$120</span></li><li><span class="n">塔香醬燒肉蛋</span><span class="p">$60／$120</span></li><li><span class="n">天使花醬肉蛋</span><span class="p">$65／$125</span></li><li><span class="n">手工泡菜肉蛋（辣）</span><span class="p">$65／$125</span></li><li><span class="n">蔥鹽烤肉蛋</span><span class="p">$70／$130</span></li><li><span class="n">火山熔岩肉蛋<em>自醃豬排、四種天然起司、洋蔥絲</em></span><span class="p">$90／$150</span></li></ul></div><div class="cat rv"><h3>海鮮・雞・牛<small>單點／套餐</small></h3><ul><li><span class="n">深海鮪魚</span><span class="p">$60／$120</span></li><li><span class="n">花蝦美人</span><span class="p">$65／$125</span></li><li><span class="n">海陸雙饗<em>自醃豬排、手拌鮪魚、歐姆蛋、起司</em></span><span class="p">$90／$150</span></li><li><span class="n">卡脆嫩雞（原／辣）</span><span class="p">$75／$135</span></li><li><span class="n">安格斯黑牛</span><span class="p">$105／$165</span></li><li><span class="n">花醬起司厚牛</span><span class="p">$115／$175</span></li><li><span class="n">泡菜搖滾厚牛（辣）</span><span class="p">$115／$175</span></li></ul></div><div class="cat rv"><h3>蛋奶素<small>單點／套餐</small></h3><ul><li><span class="n">天然抹醬<em>草莓、自製花生、榛果巧克力</em></span><span class="p">$30／$90</span></li><li><span class="n">奶香起司蛋</span><span class="p">$45／$105</span></li><li><span class="n">手作芋泥</span><span class="p">$40／$100</span></li><li><span class="n">小農地瓜泥</span><span class="p">$40／$100</span></li><li><span class="n">芋泥鬆鬆</span><span class="p">$50／$110</span></li><li><span class="n">鮮蔬起司蛋</span><span class="p">$60／$120</span></li><li><span class="n">熔岩起司蛋</span><span class="p">$65／$125</span></li><li><span class="n">薯餅起司蛋</span><span class="p">$65／$125</span></li><li><span class="n">芋泥起司蛋</span><span class="p">$70／$130</span></li><li><span class="n">地瓜泥起司蛋</span><span class="p">$70／$130</span></li><li><span class="n">紫金起司蛋</span><span class="p">$70／$130</span></li></ul></div><div class="cat rv"><h3>巨無霸土司<small>單點／套餐</small></h3><ul><li><span class="n">無堂三文治<em>雙倍豬肉、歐姆蛋、天然起司、鮮蔬</em></span><span class="p">$100／$160</span></li><li><span class="n">辛奇卡脆雞<em>卡脆嫩雞、韓式泡菜、歐姆蛋、起司</em></span><span class="p">$115／$175</span></li><li><span class="n">花醬培根牛<em>安格斯黑牛、花生醬、培根、歐姆蛋</em></span><span class="p">$140／$200</span></li></ul></div><div class="cat rv"><h3>法式脆堡<small>單點／套餐</small></h3><ul><li><span class="n">起司歐姆蛋堡</span><span class="p">$65／$125</span></li><li><span class="n">金磚薯餅堡</span><span class="p">$70／$130</span></li><li><span class="n">輕纖鮪魚堡</span><span class="p">$75／$135</span></li><li><span class="n">超蝦海洋堡</span><span class="p">$75／$135</span></li><li><span class="n">芋見豬排堡</span><span class="p">$80／$140</span></li><li><span class="n">卡拉雞腿堡（原／辣）</span><span class="p">$85／$145</span></li><li><span class="n">花醬厚牛堡</span><span class="p">$125／$185</span></li></ul></div><div class="cat rv"><h3>加料和套餐</h3><ul><li><span class="n">天然起司</span><span class="p">+$15</span></li><li><span class="n">鮮蔬</span><span class="p">+$15</span></li><li><span class="n">自製地瓜泥</span><span class="p">+$10</span></li><li><span class="n">養生黑麥</span><span class="p">+$5</span></li><li><span class="n">套餐內容<em>點心選一（雞塊、小肉豆、脆薯）＋復刻紅茶</em></span><span class="p">+$60</span></li></ul></div></div><p class="mnote">價格取自 Google 地圖上的菜單照片，可能已經調整，請以店內為準。</p></div>
+      <form class="widget" data-ui id="pick" aria-labelledby="w-h" onsubmit="return false"><h3 id="w-h">組一份早餐</h3><p class="wsub">選吐司、要不要套餐和加料，馬上算出這份多少錢。</p><fieldset><legend>吐司或脆堡</legend><div class="chips"><label><input type="radio" name="m" value="55" data-n="招牌烤肉蛋" checked><span>招牌烤肉蛋 55</span></label><label><input type="radio" name="m" value="90" data-n="火山熔岩肉蛋"><span>火山熔岩肉蛋 90</span></label><label><input type="radio" name="m" value="75" data-n="卡脆嫩雞"><span>卡脆嫩雞 75</span></label><label><input type="radio" name="m" value="105" data-n="安格斯黑牛"><span>安格斯黑牛 105</span></label><label><input type="radio" name="m" value="70" data-n="芋泥起司蛋"><span>芋泥起司蛋 70</span></label><label><input type="radio" name="m" value="80" data-n="芋見豬排堡"><span>芋見豬排堡 80</span></label></div></fieldset><fieldset><legend>單點或套餐</legend><div class="chips"><label><input type="radio" name="t" value="0" data-n="單點" checked><span>單點</span></label><label><input type="radio" name="t" value="60" data-n="套餐（點心＋紅茶）"><span>套餐（點心＋紅茶）</span></label></div></fieldset><fieldset><legend>加料</legend><div class="chips"><label><input type="radio" name="a" value="0" data-n="不加" checked><span>不加</span></label><label><input type="radio" name="a" value="15" data-n="天然起司"><span>天然起司 15</span></label><label><input type="radio" name="a" value="15" data-n="鮮蔬"><span>鮮蔬 15</span></label><label><input type="radio" name="a" value="5" data-n="養生黑麥"><span>養生黑麥 5</span></label></div></fieldset><p class="total" aria-live="polite"><span id="what"></span><output id="sum" class="sum"></output></p></form><script>(function(){const f=document.getElementById("pick");const N=['m', 't', 'a'];function calc(){const g=N.map(n=>f.querySelector(`input[name=${n}]:checked`));document.getElementById("sum").textContent="$"+g.reduce((a,x)=>a+ +x.value,0);document.getElementById("what").textContent=g.map(x=>x.dataset.n).filter(t=>t&&t!=="不加"&&t!=="單點").join("・");}f.addEventListener("change",calc);calc();})();</script>
+    </div>
+  </section>
+
+  <section id="photos" aria-labelledby="h-photos">
+    <h2 id="h-photos">照片</h2>
+    <div class="gal"><figure class="rv"><img src="img/p2.jpg" alt="早午餐盤" loading="lazy"><figcaption>早午餐盤</figcaption></figure><figure class="rv"><img src="img/p5.jpg" alt="晚上的招牌" loading="lazy"><figcaption>晚上的招牌</figcaption></figure><figure class="rv"><img src="img/p4.jpg" alt="櫃檯" loading="lazy"><figcaption>櫃檯</figcaption></figure><figure class="rv"><img src="img/p6.jpg" alt="內用座位" loading="lazy"><figcaption>內用座位</figcaption></figure><figure class="rv"><img src="img/p1.jpg" alt="店門口" loading="lazy"><figcaption>店門口</figcaption></figure></div>
+  </section>
+
+  <section id="visit" aria-labelledby="h-visit">
+    <div class="two">
+      <div class="faq">
+        <h2>來之前看一下</h2>
+        <details class="rv"><summary>幾點開門？</summary><p>週三到週日早上 6:00 開，12:30 休息；週一、週二公休。</p></details><details class="rv"><summary>怎麼點餐？</summary><p>座位掃 QR Code 點餐，再到櫃檯結帳。</p></details><details class="rv"><summary>內用位子多嗎？</summary><p>大約 11 個位置，尖峰時段可能要等。</p></details><details class="rv"><summary>店不好找嗎？</summary><p>店面在市場的鐵皮屋裡，找黃色的「無堂」招牌。</p></details>
+      </div>
+      <div class="visit rv">
+        <h2 id="h-visit">營業時間與交通</h2>
+        <table><tr><th scope="row">週三～週日</th><td>06:00–12:30</td></tr><tr><th scope="row">週一、週二</th><td>公休</td></tr></table>
+        <p class="row"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>南投縣草屯鎮虎山路487號</p>
+        <p class="row"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg><a href="tel:0968727254">0968-727-254</a></p>
+        <div class="btns"><a class="btn" href="tel:0968727254"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>打電話 0968-727-254</a><a class="btn ghost" href="https://www.google.com/maps/search/?api=1&query=%E5%8D%97%E6%8A%95%E7%B8%A3%E8%8D%89%E5%B1%AF%E9%8E%AE%E8%99%8E%E5%B1%B1%E8%B7%AF487%E8%99%9F" target="_blank" rel="noopener">導航過去</a><a class="btn ghost" href="https://lin.ee/mRfQSlR" target="_blank" rel="noopener">LINE 官方帳號</a></div>
+      </div>
+    </div>
+    <div class="map rv"><iframe loading="lazy" title="無堂的位置地圖" src="https://www.google.com/maps?q=%E5%8D%97%E6%8A%95%E7%B8%A3%E8%8D%89%E5%B1%AF%E9%8E%AE%E8%99%8E%E5%B1%B1%E8%B7%AF487%E8%99%9F&output=embed"></iframe></div>
+  </section>
+</div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="fn">無堂</p>
+    <p>這是點子成形（旻翰）做的網站提案預覽。店家資訊和菜單整理自網路上的公開資料，正式上線前會和店家確認，並放上店家自己的照片。</p>
+  </div>
+</footer>
+
+<script>
+document.body.classList.remove('no-js');
+(function () {
+  const H = {"3": [["06:00", "12:30"]], "4": [["06:00", "12:30"]], "5": [["06:00", "12:30"]], "6": [["06:00", "12:30"]], "0": [["06:00", "12:30"]]};
+  const names = ['週日','週一','週二','週三','週四','週五','週六'];
+  const now = new Date(new Date().toLocaleString('en-US', { timeZone: 'Asia/Taipei' }));
+  const d = now.getDay(), mins = now.getHours() * 60 + now.getMinutes();
+  const toM = s => +s.slice(0, 2) * 60 + +s.slice(3);
+  const el = document.getElementById('open');
+  const today = H[d] || [];
+  const cur = today.find(([a, b]) => mins >= toM(a) && mins < toM(b));
+  if (cur) { el.textContent = `營業中，${cur[1]} 休息`; return; }
+  el.classList.add('closed');
+  const later = today.find(([a]) => mins < toM(a));
+  if (later) { el.textContent = `休息中，今天 ${later[0]} 開`; return; }
+  for (let i = 1; i <= 7; i++) { const nd = (d + i) % 7; if (H[nd]) { el.textContent = `休息中，${i === 1 ? '明天' : names[nd]} ${H[nd][0][0]} 開`; return; } }
+})();
+const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { const sib = [...e.target.parentElement.children].filter(c => c.classList.contains('rv')); e.target.style.transitionDelay = (sib.indexOf(e.target) % 6) * 70 + 'ms'; e.target.classList.add('in'); io.unobserve(e.target); } }), { rootMargin: '0px 0px -5% 0px' });
+document.querySelectorAll('.rv').forEach(el => io.observe(el));
+</script>
+</body>
+</html>

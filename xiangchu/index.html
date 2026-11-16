@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>象廚工房｜南投市中興路義大利麵</title>
+<meta name="description" content="南投市中興路上的義大利麵小館。白醬、紅醬、青醬或清炒都能選，加一點錢升級套餐，附湯和紅茶。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #16130f; --surface: #221e19; --ink: #f1ece4; --muted: #c4bcb0;
+  --accent: #c6dc7c; --on: #16130f; --hl: #c6dc7c; --dark: #c6dc7c; --on-dark: #16130f;
+  --head: "Noto Sans TC", sans-serif; --body: "Noto Sans TC", system-ui, sans-serif;
+  --w: 1200px; --m: clamp(16px, 4vw, 40px); --gap: clamp(16px, 2vw, 24px); --sec: clamp(56px, 7vw, 96px);
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 400 17px/1.65 var(--body); }
+p, li, summary, figcaption, td, th { text-wrap: pretty; }
+h1, h2, h3, .tagline { text-wrap: balance; word-break: keep-all; overflow-wrap: anywhere; }
+.info b, .points b, .cat h3, .visit th { word-break: keep-all; }
+img { display: block; max-width: 100%; height: auto; }
+a { color: inherit; }
+svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; flex: none; }
+:focus-visible { outline: 3px solid var(--hl); outline-offset: 3px; }
+.wrap { max-width: calc(var(--w) + 2 * var(--m)); margin: 0 auto; padding: 0 var(--m); }
+.proposal { background: #b8452f; color: #fff; font-size: 14px; text-align: center; padding: 8px 16px; margin: 0; }
+.motif { height: 14px; background: repeating-linear-gradient(90deg, #8a3b2e 0 40px, var(--bg) 40px 44px); } /* taste-skill-ignore: brick row, not a gradient fill */
+
+header.top { position: sticky; top: 0; z-index: 10; background: var(--bg); }
+header.top .wrap { display: flex; align-items: center; gap: 28px; min-height: 64px; }
+.wm { font: 700 22px/1 var(--head); text-decoration: none; margin-right: auto; }
+.wm small { font: 500 15px var(--body); color: var(--muted); margin-left: 10px; letter-spacing: .02em; }
+header.top nav { display: flex; gap: 22px; font-weight: 500; }
+header.top nav a { text-decoration: none; padding: 10px 0; }
+header.top nav a:hover { color: var(--hl); }
+
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 48px; padding: 0 22px; border-radius: 999px; background: var(--accent); color: var(--on); font-weight: 700; text-decoration: none; border: 0; font-size: 16px; cursor: pointer; transition: transform .15s ease, opacity .15s ease; }
+.btn:hover { opacity: .88; }
+.btn:active { transform: scale(.97); }
+.btn.ghost { background: var(--surface); color: var(--ink); }
+
+/* hero */
+.hero { display: grid; grid-template-columns: 1fr 1.1fr; gap: clamp(24px, 4vw, 56px); align-items: center; padding-top: clamp(24px, 4vw, 48px); }
+.hero .txt { container-type: inline-size; min-width: 0; }
+.hero h1 { font: 700 min(108px, 7.4vw, calc(100cqi / var(--n) * .94))/1.05 var(--head); margin: 0 0 18px; letter-spacing: .02em; white-space: nowrap; }
+.hero h1 span { display: block; font: 500 clamp(17px, 1.4vw, 20px)/1.4 var(--body); letter-spacing: .02em; margin-top: 14px; color: var(--muted); }
+.hero .tagline { font: 700 clamp(24px, 2.4vw, 32px)/1.35 var(--head); margin: 0 0 12px; max-width: 18em; text-wrap: balance; }
+.hero .lead { font-size: clamp(17px, 1.4vw, 19px); margin: 0 0 20px; max-width: 34em; }
+.status { display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center; margin: 0 0 24px; font-weight: 500; }
+.status .dot { display: inline-flex; align-items: center; gap: 8px; }
+.status .dot::before { content: ""; width: 10px; height: 10px; border-radius: 50%; background: #3f9a5b; }
+.status .dot.closed::before { background: #c0533b; }
+.status .rate b { color: var(--hl); }
+.cta { display: flex; flex-wrap: wrap; gap: 10px; }
+.mosaic { display: grid; grid-template-columns: 2fr 1fr; grid-template-rows: repeat(3, 1fr); gap: 8px; aspect-ratio: 5 / 4; }
+.mosaic img { width: 100%; height: 100%; object-fit: cover; border-radius: 10px; }
+.mosaic .m0 { grid-row: 1 / 4; }
+
+/* info strip */
+.info { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: clamp(32px, 4vw, 48px); }
+.info > div { background: var(--surface); border-radius: 10px; padding: 16px 18px; display: flex; gap: 12px; align-items: flex-start; }
+.info svg { margin-top: 3px; color: var(--hl); }
+.info b { display: block; font-size: 16px; }
+.info span { font-size: 16px; color: var(--muted); }
+
+section { padding-top: var(--sec); }
+h2 { font: 700 clamp(28px, 3vw, 40px)/1.2 var(--head); margin: 0 0 20px; }
+
+/* about */
+.about { display: grid; grid-template-columns: 1.1fr 1fr; gap: clamp(24px, 4vw, 56px); align-items: center; }
+.about p.txt { margin: 0 0 20px; font-size: 18px; }
+.points { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.points li { background: var(--surface); border-radius: 10px; padding: 12px 16px; display: grid; grid-template-columns: 6.5em 1fr; gap: 14px; align-items: baseline; }
+.points b { min-width: 7em; }
+.points span { color: var(--muted); }
+.about img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 12px; }
+
+/* menu */
+.menu-grid { display: grid; grid-template-columns: 1fr 360px; gap: var(--gap); align-items: start; }
+.cats { columns: 2 280px; column-gap: var(--gap); }
+.menu-grid.solo { grid-template-columns: 1fr; }
+.menu-grid.solo .cats { columns: 3 260px; }
+.menu-grid.solo .cats.c3 { grid-template-columns: repeat(3, 1fr); }
+.menu-grid.solo .cats.c3 .cat:nth-child(3) { grid-column: auto; }
+.cats.c3 { columns: auto; display: grid; grid-template-columns: 1fr 1fr; gap: 0 var(--gap); }
+.cats.c3 .cat:nth-child(3) { grid-column: 1 / -1; }
+@media (max-width: 760px) { .cats.c3 { grid-template-columns: 1fr; } }
+.cat { break-inside: avoid; background: var(--surface); border-radius: 12px; padding: 18px 20px 12px; margin-bottom: var(--gap); }
+.cat h3 { font: 700 20px/1.3 var(--head); margin: 0 0 8px; display: flex; align-items: baseline; gap: 10px; }
+.cat h3 small { font: 500 16px var(--body); color: var(--muted); }
+.cat ul { list-style: none; margin: 0; padding: 0; }
+.cat li { display: flex; justify-content: space-between; gap: 12px; padding: 6px 0; }
+.cat em { display: block; font-style: normal; font-size: 16px; color: var(--muted); }
+.cat .p { font-weight: 700; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.mnote { font-size: 16px; color: var(--muted); margin: 0; }
+
+.widget { position: sticky; top: 80px; background: var(--dark); color: var(--on-dark); border-radius: 14px; padding: 22px; }
+.widget h3 { font: 700 22px/1.3 var(--head); margin: 0 0 4px; }
+.widget .wsub { margin: 0 0 14px; font-size: 16px; }
+.widget .f, .widget legend { display: block; font-weight: 700; font-size: 16px; margin: 14px 0 8px; padding: 0; }
+.widget fieldset { border: 0; margin: 0; padding: 0; }
+.widget select { width: 100%; min-height: 48px; font: inherit; font-size: 16px; padding: 0 12px; border-radius: 8px; border: 0; background: var(--on-dark); color: var(--dark); }
+.adds { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; font-size: 16px; }
+.adds label { display: flex; gap: 8px; align-items: center; min-height: 44px; padding: 6px 10px; border-radius: 8px; background: color-mix(in srgb, var(--on-dark) 12%, transparent); cursor: pointer; }
+.adds input { width: 18px; height: 18px; accent-color: var(--hl); }
+.ppl { display: flex; align-items: center; gap: 4px; }
+.ppl button { width: 44px; height: 44px; border-radius: 50%; border: 0; background: var(--on-dark); color: var(--dark); font-size: 22px; cursor: pointer; }
+.ppl output { min-width: 56px; text-align: center; font-weight: 700; font-size: 18px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chips label { position: relative; }
+.chips input { position: absolute; inset: 0; opacity: 0; cursor: pointer; margin: 0; }
+.chips span { display: inline-flex; align-items: center; min-height: 40px; padding: 0 14px; border-radius: 999px; background: color-mix(in srgb, var(--on-dark) 14%, transparent); font-size: 16px; transition: background .15s; }
+.chips input:checked + span { background: var(--on-dark); color: var(--dark); font-weight: 700; }
+.chips input:focus-visible + span { outline: 2px solid var(--on-dark); outline-offset: 2px; }
+.total { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin-top: 28px; padding: 14px 16px; border-radius: 10px; background: color-mix(in srgb, var(--on-dark) 12%, transparent); }
+.total b, .total .sum { font: 700 36px/1 var(--head); font-variant-numeric: tabular-nums; }
+.check { margin: 8px 0 0; font-size: 16px; }
+.kw { list-style: none; margin: 8px 0 18px; padding: 0; display: grid; gap: 12px; }
+.kw li { display: grid; grid-template-columns: 6.5em 1fr auto; gap: 10px; align-items: center; }
+.kw-w { font-weight: 700; font-size: 18px; }
+.kw-bar { height: 10px; border-radius: 999px; background: color-mix(in srgb, var(--on-dark) 18%, transparent); overflow: hidden; }
+.kw-bar i { display: block; height: 100%; background: var(--on-dark); border-radius: 999px; }
+.kw-n { font-variant-numeric: tabular-nums; }
+.widget .wbtn { background: var(--on-dark); color: var(--dark); }
+.check.no { color: #ffb4a3; }
+
+/* gallery */
+.gal { display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-rows: 200px; gap: 8px; }
+.gal figure { margin: 0; position: relative; overflow: hidden; border-radius: 10px; }
+.gal figure:nth-child(1) { grid-column: span 2; grid-row: span 2; }
+.gal img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s ease; }
+.gal figure:hover img { transform: scale(1.04); }
+.gal figcaption { position: absolute; left: 8px; bottom: 8px; background: var(--bg); color: var(--ink); font-size: 16px; padding: 4px 12px; border-radius: 999px; }
+
+/* faq + visit */
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: var(--gap); align-items: stretch; }
+.faq details { background: var(--surface); border-radius: 10px; margin-bottom: 8px; }
+.faq summary { cursor: pointer; list-style: none; padding: 14px 18px; font-weight: 700; display: flex; justify-content: space-between; gap: 12px; min-height: 48px; align-items: center; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; font-size: 22px; transition: transform .2s; }
+.faq details[open] summary::after { transform: rotate(45deg); }
+.faq details p { margin: 0; padding: 0 18px 16px; }
+.visit { background: var(--dark); color: var(--on-dark); border-radius: 14px; padding: clamp(22px, 3vw, 32px); display: flex; flex-direction: column; gap: 16px; }
+.visit h2 { margin: 0; }
+.visit table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; }
+.visit th, .visit td { text-align: left; padding: 8px 0; border-bottom: 1px solid color-mix(in srgb, var(--on-dark) 25%, transparent); }
+.visit th { font-weight: 500; width: 8em; }
+.visit .row { display: flex; gap: 10px; align-items: flex-start; margin: 0; }
+.visit .btns { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; }
+.visit .btn { background: var(--on-dark); color: var(--dark); }
+.visit .btn.ghost { background: transparent; color: var(--on-dark); box-shadow: inset 0 0 0 2px var(--on-dark); } /* taste-skill-ignore: outline button */
+.map { margin-top: var(--gap); border-radius: 14px; overflow: hidden; background: var(--surface); }
+.map iframe { display: block; width: 100%; height: 340px; border: 0; }
+
+footer { margin-top: var(--sec); padding: 28px 0 40px; background: var(--surface); }
+footer .wrap { display: grid; grid-template-columns: auto 1fr; gap: 8px 32px; align-items: center; }
+footer .fn { font: 700 22px var(--head); }
+@media (max-width: 760px) { footer .wrap { grid-template-columns: 1fr; } }
+footer p { margin: 0; font-size: 16px; color: var(--muted); max-width: 62ch; }
+
+.rv { opacity: 0; transform: translateY(16px); transition: opacity .5s ease, transform .5s ease; }
+.rv.in { opacity: 1; transform: none; }
+.no-js .rv { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) { .rv { opacity: 1; transform: none; transition: none; } .gal img { transition: none; } html { scroll-behavior: auto; } }
+
+@media (max-width: 1180px) { .info { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 960px) {
+  .menu-grid { grid-template-columns: 1fr; }
+  .widget { position: static; }
+  .info { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 760px) {
+  header.top nav { display: none; }
+  .hero { grid-template-columns: 1fr; }
+  .mosaic { aspect-ratio: 4 / 3; }
+  .hero h1 { font-size: min(72px, calc(100cqi / var(--n) * .94)); }
+  .about, .two { grid-template-columns: 1fr; }
+  .about img { order: -1; }
+  .gal { grid-template-columns: 1fr 1fr; grid-auto-rows: 150px; }
+  .cta .btn { flex: 1 1 auto; }
+}
+@media (max-width: 420px) { .info { grid-template-columns: 1fr; } .adds { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body class="no-js">
+<p class="proposal">網站提案預覽・不是象廚工房的官方網站・照片位置之後換成店裡的照片</p>
+<header class="top">
+  <div class="wrap">
+    <a class="wm" href="#top">象廚工房<small>XIANG CHU 義大利麵</small></a>
+    <nav aria-label="主選單"><a href="#about">關於</a><a href="#menu">菜單</a><a href="#photos">照片</a><a href="#visit">營業時間</a></nav>
+  </div>
+  <div class="motif" aria-hidden="true"></div>
+</header>
+
+<main id="top">
+<div class="wrap">
+  <div class="hero">
+    <div class="txt">
+      <h1 style="--n: 4">象廚工房<span>義大利麵・南投市</span></h1>
+      <p class="tagline">青醬義大利麵配迷迭香雞腿排</p>
+      <p class="lead">南投市中興路上的義大利麵小館。白醬、紅醬、青醬或清炒都能選，加一點錢升級套餐，附湯和紅茶。</p>
+      <p class="status"><span class="dot" id="open">週間營業中</span><span class="rate">Google <b>4.8</b> 分・295 則評論</span></p>
+      <div class="cta"><a class="btn" href="#menu">看菜單</a><a class="btn ghost" href="https://www.google.com/maps/search/?api=1&query=%E5%8D%97%E6%8A%95%E7%B8%A3%E5%8D%97%E6%8A%95%E5%B8%82%E4%B8%AD%E8%88%88%E8%B7%AF586%E8%99%9F" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>導航</a></div>
+    </div>
+    <div class="mosaic"><img class="m0" src="img/p7.jpg" alt="迷迭香嫩煎雞腿排配青醬義大利麵"><img class="m1" src="img/p2.jpg" alt="青醬雞肉義大利麵" loading="lazy"><img class="m2" src="img/p5.jpg" alt="蛤蜊海鮮義大利麵" loading="lazy"><img class="m3" src="img/p1.jpg" alt="紅磚牆前的吧台，牆上掛著單車" loading="lazy"></div>
+  </div>
+
+  <div class="info">
+    <div class="rv"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><p style="margin:0"><b>10:00–20:00</b><span>週三～週日，週一、週二公休</span></p></div>
+    <div class="rv"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><p style="margin:0"><b>南投市中興路586號</b><span>南投縣</span></p></div>
+    <div class="rv"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/></svg><p style="margin:0"><b><a href="https://www.facebook.com/%E8%B1%A1%E5%BB%9A%E5%B7%A5%E6%88%BF-728201323975428/" target="_blank" rel="noopener">Facebook 私訊</a></b><span>Google 上沒有登記電話</span></p></div>
+    <div class="rv"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M14.5 9.5c-.5-1-1.5-1.5-2.5-1.5-1.4 0-2.5.8-2.5 2s1 1.7 2.5 2 2.5.8 2.5 2-1.1 2-2.5 2c-1 0-2-.5-2.5-1.5M12 6.5v1.5M12 16v1.5"/></svg><p style="margin:0"><b>義大利麵 $160–230</b><span>套餐加 $35–75</span></p></div>
+  </div>
+
+  <section id="about" aria-labelledby="h-about">
+    <div class="about">
+      <div class="rv">
+        <h2 id="h-about">一間有吧台的小館</h2>
+        <p class="txt">紅磚牆前是吧台，單車掛在牆上，牆上還有攝影作品，另外有包廂。最多人推薦青醬和迷迭香雞腿排，也有季節限定的蒜辣鮮蝦義大利麵。附近不太好停車，店面不太明顯，到了中興路 586 號再找一下。</p>
+        <ul class="points"><li><b>青醬</b><span>最多人點的醬汁</span></li><li><b>迷迭香雞腿排</b><span>建議升級套餐一起吃</span></li><li><b>包廂</b><span>適合聚餐</span></li></ul>
+      </div>
+      <img class="rv" src="img/p6.jpg" alt="店內座位和書架" loading="lazy">
+    </div>
+  </section>
+
+  <section id="menu" aria-labelledby="h-menu">
+    <h2 id="h-menu">菜單</h2>
+    <div class="menu-grid">
+      <div><div class="cats c3"><div class="cat rv"><h3>白醬・紅醬・青醬</h3><ul><li><span class="n">野菇</span><span class="p">$180</span></li><li><span class="n">培根</span><span class="p">$180</span></li><li><span class="n">雞肉</span><span class="p">$180</span></li><li><span class="n">海鮮</span><span class="p">$190</span></li><li><span class="n">厚切香酥豬排</span><span class="p">$230</span></li><li><span class="n">迷迭香嫩煎雞腿排</span><span class="p">$230</span></li></ul></div><div class="cat rv"><h3>清炒</h3><ul><li><span class="n">野菇</span><span class="p">$160</span></li><li><span class="n">培根</span><span class="p">$160</span></li><li><span class="n">雞肉</span><span class="p">$160</span></li><li><span class="n">海鮮</span><span class="p">$170</span></li><li><span class="n">厚切香酥豬排</span><span class="p">$210</span></li><li><span class="n">迷迭香嫩煎雞腿排</span><span class="p">$210</span></li></ul></div><div class="cat rv"><h3>升級套餐<small>主餐再加</small></h3><ul><li><span class="n">A　湯＋紅茶</span><span class="p">+$35</span></li><li><span class="n">B　湯＋紅茶＋薯條</span><span class="p">+$55</span></li><li><span class="n">C　湯＋紅茶＋麵包</span><span class="p">+$55</span></li><li><span class="n">D　湯＋紅茶＋薯條＋麵包</span><span class="p">+$75</span></li></ul></div></div><p class="mnote">價格取自顧客在 Google 地圖上傳的菜單照片，可能已經調整，請以店內為準。</p></div>
+      
+<form class="widget" data-ui id="plate" aria-labelledby="w-h" onsubmit="return false">
+  <h3 id="w-h">點一盤看看</h3>
+  <p class="wsub">選醬汁、主料和套餐，馬上算出這盤多少錢。</p>
+  <fieldset><legend>醬汁</legend><div class="chips">
+    <label><input type="radio" name="s" value="0" data-n="白醬"><span>白醬</span></label>
+    <label><input type="radio" name="s" value="0" data-n="紅醬"><span>紅醬</span></label>
+    <label><input type="radio" name="s" value="0" data-n="青醬" checked><span>青醬</span></label>
+    <label><input type="radio" name="s" value="-20" data-n="清炒"><span>清炒</span></label>
+  </div></fieldset>
+  <fieldset><legend>主料</legend><div class="chips">
+    <label><input type="radio" name="m" value="180" data-n="野菇"><span>野菇</span></label>
+    <label><input type="radio" name="m" value="180" data-n="培根"><span>培根</span></label>
+    <label><input type="radio" name="m" value="180" data-n="雞肉"><span>雞肉</span></label>
+    <label><input type="radio" name="m" value="190" data-n="海鮮"><span>海鮮</span></label>
+    <label><input type="radio" name="m" value="230" data-n="厚切香酥豬排"><span>厚切豬排</span></label>
+    <label><input type="radio" name="m" value="230" data-n="迷迭香嫩煎雞腿排" checked><span>迷迭香雞腿排</span></label>
+  </div></fieldset>
+  <fieldset><legend>套餐</legend><div class="chips">
+    <label><input type="radio" name="t" value="0" data-n="" checked><span>單點</span></label>
+    <label><input type="radio" name="t" value="35" data-n="A 套餐"><span>A</span></label>
+    <label><input type="radio" name="t" value="55" data-n="B 套餐"><span>B</span></label>
+    <label><input type="radio" name="t" value="55" data-n="C 套餐"><span>C</span></label>
+    <label><input type="radio" name="t" value="75" data-n="D 套餐"><span>D</span></label>
+  </div></fieldset>
+  <div class="total"><span id="what">青醬・迷迭香嫩煎雞腿排</span><b id="sum">$230</b></div>
+</form>
+<script>
+(function(){const f=document.getElementById('plate');
+function calc(){const g=n=>f.querySelector(`input[name=${n}]:checked`);const s=g('s'),m=g('m'),t=g('t');
+document.getElementById('sum').textContent='$'+(+m.value + +s.value + +t.value);
+document.getElementById('what').textContent=s.dataset.n+'・'+m.dataset.n+(t.dataset.n?'・'+t.dataset.n:'');}
+f.addEventListener('change',calc);calc();})();
+</script>
+    </div>
+  </section>
+
+  <section id="photos" aria-labelledby="h-photos">
+    <h2 id="h-photos">照片</h2>
+    <div class="gal"><figure class="rv"><img src="img/p8.jpg" alt="季節限定的蒜辣鮮蝦" loading="lazy"><figcaption>季節限定的蒜辣鮮蝦</figcaption></figure><figure class="rv"><img src="img/p9.jpg" alt="培根白醬" loading="lazy"><figcaption>培根白醬</figcaption></figure><figure class="rv"><img src="img/p3.jpg" alt="飯後的咖啡" loading="lazy"><figcaption>飯後的咖啡</figcaption></figure><figure class="rv"><img src="img/p5.jpg" alt="海鮮義大利麵" loading="lazy"><figcaption>海鮮義大利麵</figcaption></figure><figure class="rv"><img src="img/p2.jpg" alt="青醬雞肉" loading="lazy"><figcaption>青醬雞肉</figcaption></figure></div>
+  </section>
+
+  <section id="visit" aria-labelledby="h-visit">
+    <div class="two">
+      <div class="faq">
+        <h2>來之前看一下</h2>
+        <details class="rv"><summary>怎麼訂位？</summary><p>Google 上沒有登記電話，傳 Facebook 訊息給店家最快。</p></details><details class="rv"><summary>好停車嗎？</summary><p>附近不太好停車，建議停附近路邊或停車場再走過來。</p></details><details class="rv"><summary>有包廂嗎？</summary><p>有，燈光柔和，適合聚餐聊天。</p></details><details class="rv"><summary>有季節限定嗎？</summary><p>有，例如蒜辣鮮蝦義大利麵，一盤有 10 隻去殼帶頭的蝦。</p></details>
+      </div>
+      <div class="visit rv">
+        <h2 id="h-visit">營業時間與交通</h2>
+        <table><tr><th scope="row">週三～週日</th><td>10:00–20:00</td></tr><tr><th scope="row">週一、週二</th><td>公休</td></tr></table>
+        <p class="row"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>南投縣南投市中興路586號</p>
+        <p class="row"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/></svg><a href="https://www.facebook.com/%E8%B1%A1%E5%BB%9A%E5%B7%A5%E6%88%BF-728201323975428/" target="_blank" rel="noopener">Facebook 私訊</a></p>
+        <div class="btns"><a class="btn" href="https://www.facebook.com/%E8%B1%A1%E5%BB%9A%E5%B7%A5%E6%88%BF-728201323975428/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/></svg>傳 Facebook 訊息</a><a class="btn ghost" href="https://www.google.com/maps/search/?api=1&query=%E5%8D%97%E6%8A%95%E7%B8%A3%E5%8D%97%E6%8A%95%E5%B8%82%E4%B8%AD%E8%88%88%E8%B7%AF586%E8%99%9F" target="_blank" rel="noopener">導航過去</a><a class="btn ghost" href="https://www.facebook.com/%E8%B1%A1%E5%BB%9A%E5%B7%A5%E6%88%BF-728201323975428/" target="_blank" rel="noopener">Facebook</a></div>
+      </div>
+    </div>
+    <div class="map rv"><iframe loading="lazy" title="象廚工房的位置地圖" src="https://www.google.com/maps?q=%E5%8D%97%E6%8A%95%E7%B8%A3%E5%8D%97%E6%8A%95%E5%B8%82%E4%B8%AD%E8%88%88%E8%B7%AF586%E8%99%9F&output=embed"></iframe></div>
+  </section>
+</div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="fn">象廚工房</p>
+    <p>這是點子成形（旻翰）做的網站提案預覽。店家資訊和菜單整理自網路上的公開資料，正式上線前會和店家確認，並放上店家自己的照片。</p>
+  </div>
+</footer>
+
+<script>
+document.body.classList.remove('no-js');
+(function () {
+  const H = {"3": [["10:00", "20:00"]], "4": [["10:00", "20:00"]], "5": [["10:00", "20:00"]], "6": [["10:00", "20:00"]], "0": [["10:00", "20:00"]]};
+  const names = ['週日','週一','週二','週三','週四','週五','週六'];
+  const now = new Date(new Date().toLocaleString('en-US', { timeZone: 'Asia/Taipei' }));
+  const d = now.getDay(), mins = now.getHours() * 60 + now.getMinutes();
+  const toM = s => +s.slice(0, 2) * 60 + +s.slice(3);
+  const el = document.getElementById('open');
+  const today = H[d] || [];
+  const cur = today.find(([a, b]) => mins >= toM(a) && mins < toM(b));
+  if (cur) { el.textContent = `營業中，${cur[1]} 休息`; return; }
+  el.classList.add('closed');
+  const later = today.find(([a]) => mins < toM(a));
+  if (later) { el.textContent = `休息中，今天 ${later[0]} 開`; return; }
+  for (let i = 1; i <= 7; i++) { const nd = (d + i) % 7; if (H[nd]) { el.textContent = `休息中，${i === 1 ? '明天' : names[nd]} ${H[nd][0][0]} 開`; return; } }
+})();
+const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { const sib = [...e.target.parentElement.children].filter(c => c.classList.contains('rv')); e.target.style.transitionDelay = (sib.indexOf(e.target) % 6) * 70 + 'ms'; e.target.classList.add('in'); io.unobserve(e.target); } }), { rootMargin: '0px 0px -5% 0px' });
+document.querySelectorAll('.rv').forEach(el => io.observe(el));
+</script>
+</body>
+</html>

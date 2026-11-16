@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>微光寓所 Shimmer café｜埔里早午餐</title>
+<meta name="description" content="埔里東榮路的早午餐咖啡店，早上 7:30 就開。大片玻璃窗、屋簷下吊滿植物，盤子裡是沙拉、烤蔬菜和麵包。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f2efe8; --surface: #e3e0d4; --ink: #24302a; --muted: #43504a;
+  --accent: #3b6446; --on: #f5f3ec; --hl: #a8402c; --dark: #24302a; --on-dark: #f2efe8;
+  --head: "Noto Serif TC", serif; --body: "Noto Sans TC", system-ui, sans-serif;
+  --w: 1200px; --m: clamp(16px, 4vw, 40px); --gap: clamp(16px, 2vw, 24px); --sec: clamp(56px, 7vw, 96px);
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 400 17px/1.65 var(--body); }
+p, li, summary, figcaption, td, th { text-wrap: pretty; }
+h1, h2, h3, .tagline { text-wrap: balance; word-break: keep-all; overflow-wrap: anywhere; }
+.info b, .points b, .cat h3, .visit th { word-break: keep-all; }
+img { display: block; max-width: 100%; height: auto; }
+a { color: inherit; }
+svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; flex: none; }
+:focus-visible { outline: 3px solid var(--hl); outline-offset: 3px; }
+.wrap { max-width: calc(var(--w) + 2 * var(--m)); margin: 0 auto; padding: 0 var(--m); }
+.proposal { background: #b8452f; color: #fff; font-size: 14px; text-align: center; padding: 8px 16px; margin: 0; }
+.motif { height: 14px; background: radial-gradient(ellipse 9px 5px at 10px 7px, var(--accent) 0 98%, transparent) 0 0/26px 14px repeat-x; } /* taste-skill-ignore: leaf row */
+
+header.top { position: sticky; top: 0; z-index: 10; background: var(--bg); }
+header.top .wrap { display: flex; align-items: center; gap: 28px; min-height: 64px; }
+.wm { font: 700 22px/1 var(--head); text-decoration: none; margin-right: auto; }
+.wm small { font: 500 15px var(--body); color: var(--muted); margin-left: 10px; letter-spacing: .02em; }
+header.top nav { display: flex; gap: 22px; font-weight: 500; }
+header.top nav a { text-decoration: none; padding: 10px 0; }
+header.top nav a:hover { color: var(--hl); }
+
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 48px; padding: 0 22px; border-radius: 999px; background: var(--accent); color: var(--on); font-weight: 700; text-decoration: none; border: 0; font-size: 16px; cursor: pointer; transition: transform .15s ease, opacity .15s ease; }
+.btn:hover { opacity: .88; }
+.btn:active { transform: scale(.97); }
+.btn.ghost { background: var(--surface); color: var(--ink); }
+
+/* hero */
+.hero { display: grid; grid-template-columns: 1fr 1.1fr; gap: clamp(24px, 4vw, 56px); align-items: center; padding-top: clamp(24px, 4vw, 48px); }
+.hero .txt { container-type: inline-size; min-width: 0; }
+.hero h1 { font: 700 min(108px, 7.4vw, calc(100cqi / var(--n) * .94))/1.05 var(--head); margin: 0 0 18px; letter-spacing: .02em; white-space: nowrap; }
+.hero h1 span { display: block; font: 500 clamp(17px, 1.4vw, 20px)/1.4 var(--body); letter-spacing: .02em; margin-top: 14px; color: var(--muted); }
+.hero .tagline { font: 700 clamp(24px, 2.4vw, 32px)/1.35 var(--head); margin: 0 0 12px; max-width: 18em; text-wrap: balance; }
+.hero .lead { font-size: clamp(17px, 1.4vw, 19px); margin: 0 0 20px; max-width: 34em; }
+.status { display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center; margin: 0 0 24px; font-weight: 500; }
+.status .dot { display: inline-flex; align-items: center; gap: 8px; }
+.status .dot::before { content: ""; width: 10px; height: 10px; border-radius: 50%; background: #3f9a5b; }
+.status .dot.closed::before { background: #c0533b; }
+.status .rate b { color: var(--hl); }
+.cta { display: flex; flex-wrap: wrap; gap: 10px; }
+.mosaic { display: grid; grid-template-columns: 2fr 1fr; grid-template-rows: repeat(3, 1fr); gap: 8px; aspect-ratio: 5 / 4; }
+.mosaic img { width: 100%; height: 100%; object-fit: cover; border-radius: 10px; }
+.mosaic .m0 { grid-row: 1 / 4; }
+
+/* info strip */
+.info { display: grid; grid-template-columns: 1.5fr 1.2fr 1fr 1fr; gap: 8px; margin-top: clamp(32px, 4vw, 48px); }
+.info > div { background: var(--surface); border-radius: 10px; padding: 16px 18px; display: flex; gap: 12px; align-items: flex-start; }
+.info svg { margin-top: 3px; color: var(--hl); }
+.info b { display: block; font-size: 16px; }
+.info span { font-size: 16px; color: var(--muted); }
+
+section { padding-top: var(--sec); }
+h2 { font: 700 clamp(28px, 3vw, 40px)/1.2 var(--head); margin: 0 0 20px; }
+
+/* about */
+.about { display: grid; grid-template-columns: 1.1fr 1fr; gap: clamp(24px, 4vw, 56px); align-items: center; }
+.about p.txt { margin: 0 0 20px; font-size: 18px; }
+.points { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.points li { background: var(--surface); border-radius: 10px; padding: 12px 16px; display: grid; grid-template-columns: 6.5em 1fr; gap: 14px; align-items: baseline; }
+.points b { min-width: 7em; }
+.points span { color: var(--muted); }
+.about img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 12px; }
+
+/* menu */
+.menu-grid { display: grid; grid-template-columns: 1fr 360px; gap: var(--gap); align-items: start; }
+.cats { columns: 2 280px; column-gap: var(--gap); }
+.menu-grid.solo { grid-template-columns: 1fr; }
+.menu-grid.solo .cats { columns: 3 260px; }
+.menu-grid.solo .cats.c3 { grid-template-columns: repeat(3, 1fr); }
+.menu-grid.solo .cats.c3 .cat:nth-child(3) { grid-column: auto; }
+.cats.c3 { columns: auto; display: grid; grid-template-columns: 1fr 1fr; gap: 0 var(--gap); }
+.cats.c3 .cat:nth-child(3) { grid-column: 1 / -1; }
+@media (max-width: 760px) { .cats.c3 { grid-template-columns: 1fr; } }
+.cat { break-inside: avoid; background: var(--surface); border-radius: 12px; padding: 18px 20px 12px; margin-bottom: var(--gap); }
+.cat h3 { font: 700 20px/1.3 var(--head); margin: 0 0 8px; display: flex; align-items: baseline; gap: 10px; }
+.cat h3 small { font: 500 16px var(--body); color: var(--muted); }
+.cat ul { list-style: none; margin: 0; padding: 0; }
+.cat li { display: flex; justify-content: space-between; gap: 12px; padding: 6px 0; }
+.cat em { display: block; font-style: normal; font-size: 16px; color: var(--muted); }
+.cat .p { font-weight: 700; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.mnote { font-size: 16px; color: var(--muted); margin: 0; }
+
+.widget { position: sticky; top: 80px; background: var(--dark); color: var(--on-dark); border-radius: 14px; padding: 22px; }
+.widget h3 { font: 700 22px/1.3 var(--head); margin: 0 0 4px; }
+.widget .wsub { margin: 0 0 14px; font-size: 16px; }
+.widget .f, .widget legend { display: block; font-weight: 700; font-size: 16px; margin: 14px 0 8px; padding: 0; }
+.widget fieldset { border: 0; margin: 0; padding: 0; }
+.widget select { width: 100%; min-height: 48px; font: inherit; font-size: 16px; padding: 0 12px; border-radius: 8px; border: 0; background: var(--on-dark); color: var(--dark); }
+.adds { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; font-size: 16px; }
+.adds label { display: flex; gap: 8px; align-items: center; min-height: 44px; padding: 6px 10px; border-radius: 8px; background: color-mix(in srgb, var(--on-dark) 12%, transparent); cursor: pointer; }
+.adds input { width: 18px; height: 18px; accent-color: var(--hl); }
+.ppl { display: flex; align-items: center; gap: 4px; }
+.ppl button { width: 44px; height: 44px; border-radius: 50%; border: 0; background: var(--on-dark); color: var(--dark); font-size: 22px; cursor: pointer; }
+.ppl output { min-width: 56px; text-align: center; font-weight: 700; font-size: 18px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chips label { position: relative; }
+.chips input { position: absolute; inset: 0; opacity: 0; cursor: pointer; margin: 0; }
+.chips span { display: inline-flex; align-items: center; min-height: 40px; padding: 0 14px; border-radius: 999px; background: color-mix(in srgb, var(--on-dark) 14%, transparent); font-size: 16px; transition: background .15s; }
+.chips input:checked + span { background: var(--on-dark); color: var(--dark); font-weight: 700; }
+.chips input:focus-visible + span { outline: 2px solid var(--on-dark); outline-offset: 2px; }
+.total { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin-top: 28px; padding: 14px 16px; border-radius: 10px; background: color-mix(in srgb, var(--on-dark) 12%, transparent); }
+.total b, .total .sum { font: 700 36px/1 var(--head); font-variant-numeric: tabular-nums; }
+.check { margin: 8px 0 0; font-size: 16px; }
+.kw { list-style: none; margin: 8px 0 18px; padding: 0; display: grid; gap: 12px; }
+.kw li { display: grid; grid-template-columns: 6.5em 1fr auto; gap: 10px; align-items: center; }
+.kw-w { font-weight: 700; font-size: 18px; }
+.kw-bar { height: 10px; border-radius: 999px; background: color-mix(in srgb, var(--on-dark) 18%, transparent); overflow: hidden; }
+.kw-bar i { display: block; height: 100%; background: var(--on-dark); border-radius: 999px; }
+.kw-n { font-variant-numeric: tabular-nums; }
+.widget .wbtn { background: var(--on-dark); color: var(--dark); }
+.check.no { color: #ffb4a3; }
+
+/* gallery */
+.gal { display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-rows: 200px; gap: 8px; }
+.gal figure { margin: 0; position: relative; overflow: hidden; border-radius: 10px; }
+.gal figure:nth-child(1) { grid-column: span 2; grid-row: span 2; }
+.gal img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s ease; }
+.gal figure:hover img { transform: scale(1.04); }
+.gal figcaption { position: absolute; left: 8px; bottom: 8px; background: var(--bg); color: var(--ink); font-size: 16px; padding: 4px 12px; border-radius: 999px; }
+
+/* faq + visit */
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: var(--gap); align-items: stretch; }
+.faq details { background: var(--surface); border-radius: 10px; margin-bottom: 8px; }
+.faq summary { cursor: pointer; list-style: none; padding: 14px 18px; font-weight: 700; display: flex; justify-content: space-between; gap: 12px; min-height: 48px; align-items: center; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; font-size: 22px; transition: transform .2s; }
+.faq details[open] summary::after { transform: rotate(45deg); }
+.faq details p { margin: 0; padding: 0 18px 16px; }
+.visit { background: var(--dark); color: var(--on-dark); border-radius: 14px; padding: clamp(22px, 3vw, 32px); display: flex; flex-direction: column; gap: 16px; }
+.visit h2 { margin: 0; }
+.visit table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; }
+.visit th, .visit td { text-align: left; padding: 8px 0; border-bottom: 1px solid color-mix(in srgb, var(--on-dark) 25%, transparent); }
+.visit th { font-weight: 500; width: 8em; }
+.visit .row { display: flex; gap: 10px; align-items: flex-start; margin: 0; }
+.visit .btns { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; }
+.visit .btn { background: var(--on-dark); color: var(--dark); }
+.visit .btn.ghost { background: transparent; color: var(--on-dark); box-shadow: inset 0 0 0 2px var(--on-dark); } /* taste-skill-ignore: outline button */
+.map { margin-top: var(--gap); border-radius: 14px; overflow: hidden; background: var(--surface); }
+.map iframe { display: block; width: 100%; height: 340px; border: 0; }
+
+footer { margin-top: var(--sec); padding: 28px 0 40px; background: var(--surface); }
+footer .wrap { display: grid; grid-template-columns: auto 1fr; gap: 8px 32px; align-items: center; }
+footer .fn { font: 700 22px var(--head); }
+@media (max-width: 760px) { footer .wrap { grid-template-columns: 1fr; } }
+footer p { margin: 0; font-size: 16px; color: var(--muted); max-width: 62ch; }
+
+.rv { opacity: 0; transform: translateY(16px); transition: opacity .5s ease, transform .5s ease; }
+.rv.in { opacity: 1; transform: none; }
+.no-js .rv { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) { .rv { opacity: 1; transform: none; transition: none; } .gal img { transition: none; } html { scroll-behavior: auto; } }
+
+@media (max-width: 1180px) { .info { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 960px) {
+  .menu-grid { grid-template-columns: 1fr; }
+  .widget { position: static; }
+  .info { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 760px) {
+  header.top nav { display: none; }
+  .hero { grid-template-columns: 1fr; }
+  .mosaic { aspect-ratio: 4 / 3; }
+  .hero h1 { font-size: min(72px, calc(100cqi / var(--n) * .94)); }
+  .about, .two { grid-template-columns: 1fr; }
+  .about img { order: -1; }
+  .gal { grid-template-columns: 1fr 1fr; grid-auto-rows: 150px; }
+  .cta .btn { flex: 1 1 auto; }
+}
+@media (max-width: 420px) { .info { grid-template-columns: 1fr; } .adds { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body class="no-js">
+<p class="proposal">網站提案預覽・不是微光寓所的官方網站・照片位置之後換成店裡的照片</p>
+<header class="top">
+  <div class="wrap">
+    <a class="wm" href="#top">微光寓所<small>Shimmer café</small></a>
+    <nav aria-label="主選單"><a href="#about">關於</a><a href="#menu">菜單</a><a href="#photos">照片</a><a href="#visit">營業時間</a></nav>
+  </div>
+  <div class="motif" aria-hidden="true"></div>
+</header>
+
+<main id="top">
+<div class="wrap">
+  <div class="hero">
+    <div class="txt">
+      <h1 style="--n: 4">微光寓所<span>早午餐咖啡・埔里東榮路</span></h1>
+      <p class="tagline">早上七點半，在植物堆裡吃早餐</p>
+      <p class="lead">埔里東榮路的早午餐咖啡店，早上 7:30 就開。大片玻璃窗、屋簷下吊滿植物，盤子裡是沙拉、烤蔬菜和麵包。</p>
+      <p class="status"><span class="dot" id="open">週間營業中</span><span class="rate">Google <b>4.7</b> 分・717 則評論</span></p>
+      <div class="cta"><a class="btn" href="#menu">看菜單</a><a class="btn ghost" href="https://www.google.com/maps/search/?api=1&query=%E5%8D%97%E6%8A%95%E7%B8%A3%E5%9F%94%E9%87%8C%E9%8E%AE%E6%9D%B1%E6%A6%AE%E8%B7%AF220%E8%99%9F" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>導航</a></div>
+    </div>
+    <div class="mosaic"><img class="m0" src="img/p4.jpg" alt="雞肉沙拉盤和熱飲"><img class="m1" src="img/p3.jpg" alt="漢堡和冰茶" loading="lazy"><img class="m2" src="img/p10.jpg" alt="種滿植物的後院" loading="lazy"><img class="m3" src="img/p1.jpg" alt="木頭外牆和玻璃窗" loading="lazy"></div>
+  </div>
+
+  <div class="info">
+    <div class="rv"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><p style="margin:0"><b>07:30–13:30</b><span>週五～週二，週三、週四公休</span></p></div>
+    <div class="rv"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><p style="margin:0"><b>埔里鎮東榮路220號</b><span>南投縣</span></p></div>
+    <div class="rv"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg><p style="margin:0"><b><a href="tel:0492990037">049-299-0037</a></b><span>訂位和詢問</span></p></div>
+    <div class="rv"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M14.5 9.5c-.5-1-1.5-1.5-2.5-1.5-1.4 0-2.5.8-2.5 2s1 1.7 2.5 2 2.5.8 2.5 2-1.1 2-2.5 2c-1 0-2-.5-2.5-1.5M12 6.5v1.5M12 16v1.5"/></svg><p style="margin:0"><b>早午餐</b><span>價格以店內菜單為準</span></p></div>
+  </div>
+
+  <section id="about" aria-labelledby="h-about">
+    <div class="about">
+      <div class="rv">
+        <h2 id="h-about">木頭、玻璃和植物</h2>
+        <p class="txt">店面是木頭外牆配大片玻璃，屋簷下吊著一排植物。店裡有咖啡吧台和選物架，後面還有一個種滿植物的小院子。餐點以大盤沙拉、烤蔬菜和麵包為主。</p>
+        <ul class="points"><li><b>早起</b><span>07:30 開門，13:30 打烊</span></li><li><b>大盤沙拉</b><span>生菜、烤蔬菜和優格醬</span></li><li><b>小院子</b><span>後面有種滿植物的座位</span></li></ul>
+      </div>
+      <img class="rv" src="img/p9.jpg" alt="店內的吧台和選物架" loading="lazy">
+    </div>
+  </section>
+
+  <section id="menu" aria-labelledby="h-menu">
+    <h2 id="h-menu">菜單</h2>
+    <div class="menu-grid solo">
+      <div><div class="cats"><div class="cat rv"><h3>早午餐盤</h3><ul><li><span class="n">雞肉沙拉盤<em>生菜、烤蔬菜、麵包</em></span></li><li><span class="n">烤櫛瓜沙拉<em>配優格醬</em></span></li><li><span class="n">三明治套餐<em>配沙拉和烤菇</em></span></li></ul></div><div class="cat rv"><h3>漢堡和小點</h3><ul><li><span class="n">漢堡</span></li><li><span class="n">烤馬鈴薯</span></li><li><span class="n">熱飲、冰茶</span></li></ul></div></div><p class="mnote">品項是照片看得到的餐點，完整菜單和價格以店內為準。</p></div>
+      
+    </div>
+  </section>
+
+  <section id="photos" aria-labelledby="h-photos">
+    <h2 id="h-photos">照片</h2>
+    <div class="gal"><figure class="rv"><img src="img/p7.jpg" alt="三明治套餐" loading="lazy"><figcaption>三明治套餐</figcaption></figure><figure class="rv"><img src="img/p8.jpg" alt="烤櫛瓜沙拉" loading="lazy"><figcaption>烤櫛瓜沙拉</figcaption></figure><figure class="rv"><img src="img/p6.jpg" alt="烤馬鈴薯" loading="lazy"><figcaption>烤馬鈴薯</figcaption></figure><figure class="rv"><img src="img/p2.jpg" alt="吧台" loading="lazy"><figcaption>吧台</figcaption></figure><figure class="rv"><img src="img/p10.jpg" alt="後院" loading="lazy"><figcaption>後院</figcaption></figure></div>
+  </section>
+
+  <section id="visit" aria-labelledby="h-visit">
+    <div class="two">
+      <div class="faq">
+        <h2>來之前看一下</h2>
+        <details class="rv"><summary>幾點營業？</summary><p>週五到週二 07:30–13:30，週三、週四公休。</p></details><details class="rv"><summary>會臨時店休嗎？</summary><p>有辦市集或休假時會在 Facebook 粉專公告，出發前可以先看一下。</p></details><details class="rv"><summary>可以坐戶外嗎？</summary><p>後面有一個種滿植物的小院子，有高腳桌椅。</p></details>
+      </div>
+      <div class="visit rv">
+        <h2 id="h-visit">營業時間與交通</h2>
+        <table><tr><th scope="row">週五～週二</th><td>07:30–13:30</td></tr><tr><th scope="row">週三、週四</th><td>公休</td></tr></table>
+        <p class="row"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>南投縣埔里鎮東榮路220號</p>
+        <p class="row"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg><a href="tel:0492990037">049-299-0037</a></p>
+        <div class="btns"><a class="btn" href="tel:0492990037"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>打電話 049-299-0037</a><a class="btn ghost" href="https://www.google.com/maps/search/?api=1&query=%E5%8D%97%E6%8A%95%E7%B8%A3%E5%9F%94%E9%87%8C%E9%8E%AE%E6%9D%B1%E6%A6%AE%E8%B7%AF220%E8%99%9F" target="_blank" rel="noopener">導航過去</a><a class="btn ghost" href="https://www.facebook.com/shimmercafetw/" target="_blank" rel="noopener">Facebook</a></div>
+      </div>
+    </div>
+    <div class="map rv"><iframe loading="lazy" title="微光寓所的位置地圖" src="https://www.google.com/maps?q=%E5%8D%97%E6%8A%95%E7%B8%A3%E5%9F%94%E9%87%8C%E9%8E%AE%E6%9D%B1%E6%A6%AE%E8%B7%AF220%E8%99%9F&output=embed"></iframe></div>
+  </section>
+</div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="fn">微光寓所</p>
+    <p>這是點子成形（旻翰）做的網站提案預覽。店家資訊和菜單整理自網路上的公開資料，正式上線前會和店家確認，並放上店家自己的照片。</p>
+  </div>
+</footer>
+
+<script>
+document.body.classList.remove('no-js');
+(function () {
+  const H = {"0": [["07:30", "13:30"]], "1": [["07:30", "13:30"]], "2": [["07:30", "13:30"]], "5": [["07:30", "13:30"]], "6": [["07:30", "13:30"]]};
+  const names = ['週日','週一','週二','週三','週四','週五','週六'];
+  const now = new Date(new Date().toLocaleString('en-US', { timeZone: 'Asia/Taipei' }));
+  const d = now.getDay(), mins = now.getHours() * 60 + now.getMinutes();
+  const toM = s => +s.slice(0, 2) * 60 + +s.slice(3);
+  const el = document.getElementById('open');
+  const today = H[d] || [];
+  const cur = today.find(([a, b]) => mins >= toM(a) && mins < toM(b));
+  if (cur) { el.textContent = `營業中，${cur[1]} 休息`; return; }
+  el.classList.add('closed');
+  const later = today.find(([a]) => mins < toM(a));
+  if (later) { el.textContent = `休息中，今天 ${later[0]} 開`; return; }
+  for (let i = 1; i <= 7; i++) { const nd = (d + i) % 7; if (H[nd]) { el.textContent = `休息中，${i === 1 ? '明天' : names[nd]} ${H[nd][0][0]} 開`; return; } }
+})();
+const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { const sib = [...e.target.parentElement.children].filter(c => c.classList.contains('rv')); e.target.style.transitionDelay = (sib.indexOf(e.target) % 6) * 70 + 'ms'; e.target.classList.add('in'); io.unobserve(e.target); } }), { rootMargin: '0px 0px -5% 0px' });
+document.querySelectorAll('.rv').forEach(el => io.observe(el));
+</script>
+</body>
+</html>
