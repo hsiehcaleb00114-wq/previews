@@ -1,0 +1,2755 @@
+{
+ "url": "monica/index.html",
+ "at": "2026-11-13T17:20:21.026Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.81,
+    0.4,
+    0.58,
+    0.61,
+    0.55,
+    0.61
+   ],
+   "motion": {
+    "elements": 13,
+    "css": 0,
+    "transitions": 13,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 4542,
+     "screens": 5,
+     "words": 100,
+     "img": 15,
+     "video": 0,
+     "canvas": 0,
+     "svg": 9,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 3,
+     "uiAbuse": false,
+     "realPictures": 12,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "p2.jpg",
+      "p4.jpg",
+      "p3.jpg",
+      "p4.jpg",
+      "p2.jpg",
+      "p6.jpg",
+      "p1.jpg",
+      "p2.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 1,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "莫妮卡工坊",
+     "words": 1,
+     "chars": 5,
+     "lines": 1,
+     "size": 84,
+     "vw": 5.8,
+     "font": "Noto Serif TC",
+     "weight": 700,
+     "tracking": 0.03,
+     "leading": 1.08,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.37,
+     "top": 440,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "莫妮卡工坊",
+     "words": 1,
+     "lines": 1,
+     "size": 84,
+     "font": "Noto Serif TC"
+    },
+    "headings": [
+     {
+      "text": "莫妮卡工坊",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 84,
+      "vw": 5.8,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0.03,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 440,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "看雲的木屋",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 46,
+      "vw": 3.2,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.46,
+      "top": 1024,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "房型",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 50,
+      "vw": 3.5,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.07,
+      "top": 1454,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "原木四人房",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 34,
+      "vw": 2.4,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.31,
+      "top": 1582,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "$1,478",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 38,
+      "vw": 2.6,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.06,
+      "top": 1685,
+      "tag": "b",
+      "kind": "statement"
+     },
+     {
+      "text": "三人房",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 34,
+      "vw": 2.4,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 2070,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "$2,100",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 38,
+      "vw": 2.6,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.06,
+      "top": 2173,
+      "tag": "b",
+      "kind": "statement"
+     },
+     {
+      "text": "在這裡住一晚",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 50,
+      "vw": 3.5,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 2521,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "15:00",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.24,
+      "top": 2925,
+      "tag": "time",
+      "kind": "heading"
+     },
+     {
+      "text": "傍晚",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.24,
+      "top": 2925,
+      "tag": "time",
+      "kind": "heading"
+     },
+     {
+      "text": "早上",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.24,
+      "top": 2925,
+      "tag": "time",
+      "kind": "heading"
+     },
+     {
+      "text": "照片",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 50,
+      "vw": 3.5,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.07,
+      "top": 3184,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "入住前看一下",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 50,
+      "vw": 3.5,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 3776,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "交通與聯絡",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.7,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.39,
+      "top": 4098,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 14,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Noto Sans TC",
+       "share": 0.83,
+       "mono": false
+      },
+      {
+       "family": "Noto Serif TC",
+       "share": 0.11,
+       "mono": false
+      },
+      {
+       "family": "Cormorant Garamond",
+       "share": 0.06,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      14,
+      16,
+      17,
+      18,
+      22,
+      24,
+      26,
+      28,
+      34,
+      38,
+      40,
+      46,
+      50,
+      84
+     ],
+     "sizeCount": 14,
+     "notLoaded": [],
+     "body": {
+      "font": "Noto Sans TC",
+      "size": 18,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 11.8
+     },
+     "measureChars": 73,
+     "max": {
+      "size": 84,
+      "vw": 5.8,
+      "font": "Noto Serif TC",
+      "text": "莫妮卡工坊"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.06,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f5efe6",
+     "bodyBgHsl": {
+      "h": 36,
+      "s": 0.43,
+      "l": 0.93
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#e9dfcf",
+       "top": 1542,
+       "hsl": {
+        "h": 37,
+        "s": 0.37,
+        "l": 0.86
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#3b2b22",
+       "share": 0.7
+      },
+      {
+       "color": "#f5efe6",
+       "share": 0.2
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.03
+      },
+      {
+       "color": "#5b4a3e",
+       "share": 0.02
+      },
+      {
+       "color": "#f8f3ec",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#3b2b22",
+      "hsl": {
+       "h": 22,
+       "s": 0.27,
+       "l": 0.18
+      },
+      "fg": "#f8f3ec"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 2,
+     "radius": 4,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "立即訂房",
+      "查空房"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 8,
+     "boxRadius": 6,
+     "squareMedia": 1,
+     "roundedMedia": 11,
+     "mediaRadius": 6,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 2609
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.78
+     }
+    ],
+    "nav": {
+     "links": 5,
+     "fixed": true,
+     "height": 76,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "cormorant garamond",
+     "noto sans tc",
+     "noto serif tc"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 4542,
+    "margins": {
+     "left": 84,
+     "right": 100
+    },
+    "sections": [
+     {
+      "sel": "div.hero",
+      "tag": "div",
+      "top": 116,
+      "height": 702,
+      "words": 7,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "莫妮卡工坊",
+       "size": 84,
+       "tag": "h1"
+      },
+      "left": 84,
+      "right": 923,
+      "textLeft": 84,
+      "textRight": 923,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "form#bar.bar",
+      "tag": "form",
+      "top": 754,
+      "height": 158,
+      "words": 9,
+      "media": 0,
+      "middle": 12,
+      "heading": null,
+      "left": 158,
+      "right": 158,
+      "textLeft": 158,
+      "textRight": 182,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.intro",
+      "tag": "div",
+      "top": 912,
+      "height": 429,
+      "words": 18,
+      "media": 0,
+      "middle": 104,
+      "heading": {
+       "text": "看雲的木屋",
+       "size": 46,
+       "tag": "h2"
+      },
+      "left": 100,
+      "right": 287,
+      "textLeft": 100,
+      "textRight": 287,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#rooms",
+      "tag": "section",
+      "top": 1342,
+      "height": 1040,
+      "words": 23,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "房型",
+       "size": 50,
+       "tag": "h2"
+      },
+      "left": 100,
+      "right": 100,
+      "textLeft": 100,
+      "textRight": 356,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#night",
+      "tag": "section",
+      "top": 2409,
+      "height": 662,
+      "words": 13,
+      "media": 3,
+      "middle": 28,
+      "heading": {
+       "text": "在這裡住一晚",
+       "size": 50,
+       "tag": "h2"
+      },
+      "left": 100,
+      "right": 100,
+      "textLeft": 100,
+      "textRight": 134,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#photos",
+      "tag": "section",
+      "top": 3072,
+      "height": 592,
+      "words": 3,
+      "media": 6,
+      "middle": 1665,
+      "heading": {
+       "text": "照片",
+       "size": 50,
+       "tag": "h2"
+      },
+      "left": 100,
+      "right": 0,
+      "textLeft": 100,
+      "textRight": 610,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#place",
+      "tag": "section",
+      "top": 3664,
+      "height": 649,
+      "words": 22,
+      "media": 1,
+      "middle": 208,
+      "heading": {
+       "text": "入住前看一下",
+       "size": 50,
+       "tag": "h2"
+      },
+      "left": 100,
+      "right": 100,
+      "textLeft": 100,
+      "textRight": 448,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "莫妮卡工坊",
+      "size": 84,
+      "top": 440,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 100,
+      "n": 6
+     },
+     {
+      "x": 84,
+      "n": 1
+     },
+     {
+      "x": 122,
+      "n": 1
+     },
+     {
+      "x": 140,
+      "n": 1
+     },
+     {
+      "x": 545,
+      "n": 1
+     },
+     {
+      "x": 758,
+      "n": 1
+     },
+     {
+      "x": 852,
+      "n": 1
+     },
+     {
+      "x": 967,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 13,
+    "bodySize": 18,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.01,
+    "voidBox": {
+     "x": 0,
+     "y": 840,
+     "w": 120,
+     "h": 60
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.74,
+    0.48,
+    0.89,
+    0.77,
+    0.63,
+    0.84
+   ],
+   "motion": {
+    "elements": 13,
+    "css": 0,
+    "transitions": 13,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 5806,
+     "screens": 5.7,
+     "words": 100,
+     "img": 15,
+     "video": 0,
+     "canvas": 0,
+     "svg": 9,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 3,
+     "uiAbuse": false,
+     "realPictures": 14,
+     "videoCount": 0,
+     "uiPictures": 1,
+     "pictureSamples": [
+      "p2.jpg",
+      "p4.jpg",
+      "p3.jpg",
+      "p4.jpg",
+      "p2.jpg",
+      "p6.jpg",
+      "p1.jpg",
+      "p2.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 1,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "莫妮卡工坊",
+     "words": 1,
+     "chars": 5,
+     "lines": 1,
+     "size": 84,
+     "vw": 10.9,
+     "font": "Noto Serif TC",
+     "weight": 700,
+     "tracking": 0.03,
+     "leading": 1.08,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.72,
+     "top": 518,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "莫妮卡工坊",
+     "words": 1,
+     "lines": 1,
+     "size": 84,
+     "font": "Noto Serif TC"
+    },
+    "headings": [
+     {
+      "text": "莫妮卡工坊",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 84,
+      "vw": 10.9,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0.03,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.72,
+      "top": 518,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "看雲的木屋",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1207,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "15:00",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.74,
+      "top": 1425,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "11:00",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.74,
+      "top": 1491,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "$1,478",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.08,
+      "top": 1557,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "房型",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.08,
+      "top": 1792,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "原木四人房",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.86,
+      "top": 2342,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "$1,478",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 38,
+      "vw": 4.9,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.12,
+      "top": 2435,
+      "tag": "b",
+      "kind": "statement"
+     },
+     {
+      "text": "三人房",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.86,
+      "top": 3113,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "$2,100",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 38,
+      "vw": 4.9,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.12,
+      "top": 3206,
+      "tag": "b",
+      "kind": "statement"
+     },
+     {
+      "text": "在這裡住一晚",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.25,
+      "top": 3465,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "15:00",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.35,
+      "top": 3551,
+      "tag": "time",
+      "kind": "heading"
+     },
+     {
+      "text": "傍晚",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.24,
+      "top": 3765,
+      "tag": "time",
+      "kind": "heading"
+     },
+     {
+      "text": "早上",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.44,
+      "top": 3948,
+      "tag": "time",
+      "kind": "heading"
+     },
+     {
+      "text": "照片",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.08,
+      "top": 4223,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "入住前看一下",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.25,
+      "top": 4611,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "交通與聯絡",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.7,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.86,
+      "top": 5410,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "莫妮卡工坊",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.17,
+      "top": 5725,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 18,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 6,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Noto Sans TC",
+       "share": 0.83,
+       "mono": false
+      },
+      {
+       "family": "Noto Serif TC",
+       "share": 0.11,
+       "mono": false
+      },
+      {
+       "family": "Cormorant Garamond",
+       "share": 0.06,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      14,
+      16,
+      17,
+      18,
+      21,
+      22,
+      24,
+      26,
+      28,
+      30,
+      32,
+      38,
+      40,
+      84
+     ],
+     "sizeCount": 14,
+     "notLoaded": [],
+     "body": {
+      "font": "Noto Sans TC",
+      "size": 18,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 11.8
+     },
+     "measureChars": 79,
+     "max": {
+      "size": 84,
+      "vw": 10.9,
+      "font": "Noto Serif TC",
+      "text": "莫妮卡工坊"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.06,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f5efe6",
+     "bodyBgHsl": {
+      "h": 36,
+      "s": 0.43,
+      "l": 0.93
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#e9dfcf",
+       "top": 1859,
+       "hsl": {
+        "h": 37,
+        "s": 0.37,
+        "l": 0.86
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#3b2b22",
+       "share": 0.7
+      },
+      {
+       "color": "#f5efe6",
+       "share": 0.2
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.03
+      },
+      {
+       "color": "#5b4a3e",
+       "share": 0.02
+      },
+      {
+       "color": "#f8f3ec",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#3b2b22",
+      "hsl": {
+       "h": 22,
+       "s": 0.27,
+       "l": 0.18
+      },
+      "fg": "#f8f3ec"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 1,
+     "radius": 4,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "立即訂房"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 8,
+     "boxRadius": 6,
+     "squareMedia": 1,
+     "roundedMedia": 13,
+     "mediaRadius": 6,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.74
+     }
+    ],
+    "nav": {
+     "links": 5,
+     "fixed": true,
+     "height": 76,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "cormorant garamond",
+     "noto sans tc",
+     "noto serif tc"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 5806,
+    "margins": {
+     "left": 31,
+     "right": 31
+    },
+    "sections": [
+     {
+      "sel": "div.hero",
+      "tag": "div",
+      "top": 116,
+      "height": 760,
+      "words": 7,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "莫妮卡工坊",
+       "size": 84,
+       "tag": "h1"
+      },
+      "left": 54,
+      "right": 282,
+      "textLeft": 54,
+      "textRight": 282,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "form#bar.bar",
+      "tag": "form",
+      "top": 828,
+      "height": 316,
+      "words": 9,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 49,
+      "right": 49,
+      "textLeft": 49,
+      "textRight": 314,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.intro",
+      "tag": "div",
+      "top": 1143,
+      "height": 585,
+      "words": 18,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "看雲的木屋",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 35,
+      "textLeft": 31,
+      "textRight": 35,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#rooms",
+      "tag": "section",
+      "top": 1728,
+      "height": 1656,
+      "words": 23,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "$1,478",
+       "size": 38,
+       "tag": "b"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 449,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#night",
+      "tag": "section",
+      "top": 3401,
+      "height": 749,
+      "words": 13,
+      "media": 3,
+      "middle": 22,
+      "heading": {
+       "text": "15:00",
+       "size": 40,
+       "tag": "time"
+      },
+      "left": 31,
+      "right": 79,
+      "textLeft": 31,
+      "textRight": 79,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#photos",
+      "tag": "section",
+      "top": 4149,
+      "height": 398,
+      "words": 3,
+      "media": 8,
+      "middle": 1941,
+      "heading": {
+       "text": "照片",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 0,
+      "textLeft": 31,
+      "textRight": 209,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#place",
+      "tag": "section",
+      "top": 4547,
+      "height": 1078,
+      "words": 22,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "入住前看一下",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 311,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "莫妮卡工坊",
+      "size": 84,
+      "top": 518,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 31,
+      "n": 6
+     },
+     {
+      "x": 54,
+      "n": 4
+     },
+     {
+      "x": 349,
+      "n": 3
+     }
+    ],
+    "leftBlocks": 13,
+    "bodySize": 18,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.77,
+    0.71,
+    0.78,
+    0.72,
+    0.83,
+    0.56,
+    0.83,
+    0.84
+   ],
+   "motion": {
+    "elements": 13,
+    "css": 0,
+    "transitions": 13,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 6046,
+     "screens": 7.2,
+     "words": 96,
+     "img": 15,
+     "video": 0,
+     "canvas": 0,
+     "svg": 9,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 3,
+     "uiAbuse": false,
+     "realPictures": 11,
+     "videoCount": 0,
+     "uiPictures": 1,
+     "pictureSamples": [
+      "p2.jpg",
+      "p4.jpg",
+      "p3.jpg",
+      "p4.jpg",
+      "p2.jpg",
+      "p6.jpg",
+      "p1.jpg",
+      "p2.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 1,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "莫妮卡工坊",
+     "words": 1,
+     "chars": 5,
+     "lines": 1,
+     "size": 64,
+     "vw": 16.4,
+     "font": "Noto Serif TC",
+     "weight": 700,
+     "tracking": 0.03,
+     "leading": 1.08,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 610,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "莫妮卡工坊",
+     "words": 1,
+     "lines": 1,
+     "size": 64,
+     "font": "Noto Serif TC"
+    },
+    "headings": [
+     {
+      "text": "莫妮卡工坊",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.28,
+      "top": 61,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "莫妮卡工坊",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 64,
+      "vw": 16.4,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0.03,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 610,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "4.3",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.06,
+      "top": 774,
+      "tag": "b",
+      "kind": "statement"
+     },
+     {
+      "text": "看雲的木屋",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1207,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "15:00",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 26,
+      "vw": 6.7,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.57,
+      "top": 1476,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "11:00",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 26,
+      "vw": 6.7,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.57,
+      "top": 1542,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "$1,478",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 26,
+      "vw": 6.7,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.16,
+      "top": 1608,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "房型",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.16,
+      "top": 1843,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "原木四人房",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 26,
+      "vw": 6.7,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.81,
+      "top": 2200,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "$1,478",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 38,
+      "vw": 9.7,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.23,
+      "top": 2293,
+      "tag": "b",
+      "kind": "statement"
+     },
+     {
+      "text": "三人房",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 26,
+      "vw": 6.7,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.81,
+      "top": 2777,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "$2,100",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 38,
+      "vw": 9.7,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.23,
+      "top": 2871,
+      "tag": "b",
+      "kind": "statement"
+     },
+     {
+      "text": "在這裡住一晚",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.49,
+      "top": 3128,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "15:00",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.81,
+      "top": 3416,
+      "tag": "time",
+      "kind": "heading"
+     },
+     {
+      "text": "入住",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.7,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.81,
+      "top": 3466,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "傍晚",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.81,
+      "top": 3800,
+      "tag": "time",
+      "kind": "heading"
+     },
+     {
+      "text": "看傍晚的雲",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.7,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.81,
+      "top": 3850,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "早上",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.81,
+      "top": 4183,
+      "tag": "time",
+      "kind": "heading"
+     },
+     {
+      "text": "一碗熱粥",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.7,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.81,
+      "top": 4233,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "照片",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.16,
+      "top": 4432,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "入住前看一下",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.49,
+      "top": 4814,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "交通與聯絡",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.7,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 5613,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "莫妮卡工坊",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 26,
+      "vw": 6.7,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 5928,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 23,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 7,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Noto Sans TC",
+       "share": 0.83,
+       "mono": false
+      },
+      {
+       "family": "Noto Serif TC",
+       "share": 0.11,
+       "mono": false
+      },
+      {
+       "family": "Cormorant Garamond",
+       "share": 0.06,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      14,
+      16,
+      17,
+      18,
+      21,
+      22,
+      24,
+      26,
+      28,
+      30,
+      32,
+      38,
+      40,
+      64
+     ],
+     "sizeCount": 14,
+     "notLoaded": [],
+     "body": {
+      "font": "Noto Sans TC",
+      "size": 18,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 11.8
+     },
+     "measureChars": 40,
+     "max": {
+      "size": 64,
+      "vw": 16.4,
+      "font": "Noto Serif TC",
+      "text": "莫妮卡工坊"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.06,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f5efe6",
+     "bodyBgHsl": {
+      "h": 36,
+      "s": 0.43,
+      "l": 0.93
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f5efe6",
+       "top": 588,
+       "hsl": {
+        "h": 36,
+        "s": 0.43,
+        "l": 0.93
+       }
+      },
+      {
+       "color": "#3b2b22",
+       "top": 828,
+       "hsl": {
+        "h": 22,
+        "s": 0.27,
+        "l": 0.18
+       }
+      },
+      {
+       "color": "#e9dfcf",
+       "top": 1910,
+       "hsl": {
+        "h": 37,
+        "s": 0.37,
+        "l": 0.86
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#3b2b22",
+       "share": 0.7
+      },
+      {
+       "color": "#f5efe6",
+       "share": 0.21
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.03
+      },
+      {
+       "color": "#5b4a3e",
+       "share": 0.02
+      },
+      {
+       "color": "#f8f3ec",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#3b2b22",
+      "hsl": {
+       "h": 22,
+       "s": 0.27,
+       "l": 0.18
+      },
+      "fg": "#f8f3ec"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 1,
+     "radius": 4,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "立即訂房"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 7,
+     "boxRadius": 6,
+     "squareMedia": 1,
+     "roundedMedia": 10,
+     "mediaRadius": 6,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.56
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 76,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "cormorant garamond",
+     "noto sans tc",
+     "noto serif tc"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 6046,
+    "margins": {
+     "left": 16,
+     "right": 16
+    },
+    "sections": [
+     {
+      "sel": "div.hero",
+      "tag": "div",
+      "top": 116,
+      "height": 760,
+      "words": 7,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "莫妮卡工坊",
+       "size": 64,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 44,
+      "textLeft": 16,
+      "textRight": 44,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "form#bar.bar",
+      "tag": "form",
+      "top": 828,
+      "height": 316,
+      "words": 9,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 34,
+      "right": 34,
+      "textLeft": 34,
+      "textRight": 69,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.intro",
+      "tag": "div",
+      "top": 1143,
+      "height": 636,
+      "words": 18,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "看雲的木屋",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 32,
+      "textLeft": 16,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#rooms",
+      "tag": "section",
+      "top": 1779,
+      "height": 1269,
+      "words": 23,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "$1,478",
+       "size": 38,
+       "tag": "b"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 87,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#night",
+      "tag": "section",
+      "top": 3064,
+      "height": 1294,
+      "words": 13,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "15:00",
+       "size": 40,
+       "tag": "time"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 64,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#photos",
+      "tag": "section",
+      "top": 4358,
+      "height": 392,
+      "words": 2,
+      "media": 5,
+      "middle": 1182,
+      "heading": {
+       "text": "照片",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 0,
+      "textLeft": 16,
+      "textRight": 256,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#place",
+      "tag": "section",
+      "top": 4750,
+      "height": 1078,
+      "words": 22,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "入住前看一下",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 50,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer",
+      "tag": "footer",
+      "top": 5892,
+      "height": 154,
+      "words": 3,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "莫妮卡工坊",
+       "size": 26,
+       "tag": "p"
+      },
+      "left": 16,
+      "right": 66,
+      "textLeft": 16,
+      "textRight": 66,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "莫妮卡工坊",
+      "size": 64,
+      "top": 610,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 16,
+      "n": 7
+     },
+     {
+      "x": 38,
+      "n": 6
+     }
+    ],
+    "leftBlocks": 13,
+    "bodySize": 18,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "palette-cream",
+   "width": 1440,
+   "message": "Yellow-cream background (page background #f5efe6, text #f5efe6, text #f8f3ec).",
+   "fix": "Use the drawn palette. If you want warmth, take a low-chroma stone or bone, not a yellow cream.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "font-count",
+   "width": 1440,
+   "message": "3 typefaces in use (Noto Sans TC, Noto Serif TC, Cormorant Garamond).",
+   "fix": "Two at most.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "14 different font sizes (14, 16, 17, 18, 22, 24, 26, 28, 34, 38, 40, 46, 50, 84).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "side-scroll",
+   "width": 1440,
+   "message": "1 row(s) scroll sideways with content past their edge.",
+   "fix": "Jurors and most visitors read a row cut at the edge as clipped, not as scrollable. Wrap it onto more lines, or end it inside the grid.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "off-centre",
+   "width": 1440,
+   "message": "The margins differ: 84px on the left, 100px on the right, at 1440px.",
+   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page."
+  },
+  {
+   "level": "WARN",
+   "id": "name-only-title",
+   "width": 1440,
+   "message": "The h1 is a bare name (\"莫妮卡工坊\") and nothing else on the first screen says what this is.",
+   "fix": "Keep the name if it leads, and give the line under it (18px or more) the plain words: what it is, for whom, where or when. In the study of 97 Sites of the Day, first screens that named nothing lost usability and content points.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Little motion: 13 element(s) moved while the page loaded and scrolled.",
+   "fix": "Give every section an entrance for its parts (not one fade of the whole block) and add one moving picture: a looping clip or a slow move on a photograph."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\minxi\\Documents\\接案紀錄\\previews3\\monica\\.taste\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\minxi\\Documents\\接案紀錄\\previews3\\monica\\.taste\\desktop-page-01.jpg",
+    "C:\\Users\\minxi\\Documents\\接案紀錄\\previews3\\monica\\.taste\\desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\minxi\\Documents\\接案紀錄\\previews3\\monica\\.taste\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\minxi\\Documents\\接案紀錄\\previews3\\monica\\.taste\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\minxi\\Documents\\接案紀錄\\previews3\\monica\\.taste\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\minxi\\Documents\\接案紀錄\\previews3\\monica\\.taste\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

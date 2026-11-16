@@ -1,0 +1,35 @@
+TASTESKILL · INSPECT   xiangchu/index.html
+
+MEASURED (first viewport listed)
+  hero headline   "象廚工房 義大利麵・南投市"  2 words · 1 line(s) · 106.6px (7.4vw) · Noto Sans TC 700 · tracking 0.02em · leading 1.05
+  @768px          2 line(s) · 56.8px
+  @390px          1 line(s) · 72px
+  typefaces       Noto Sans TC 100%
+  sizes in use    14 / 15 / 16 / 17 / 18 / 19 / 20 / 22 / 32 / 40 / 107 px   body 18px / 1.65
+  colour          page #16130f · sections #221e19 · button #c6dc7c
+  page            4.1 screens · 139 words · 10 images · hero media 15% img
+  headings        8 · longest 1 line(s) · median 1 words
+
+WARN — fix, or be able to defend
+  [palette-cream] @1440px (+768, 390)  Yellow-cream background (text #f1ece4).
+      → Use the drawn palette. If you want warmth, take a low-chroma stone or bone, not a yellow cream.
+  [size-count] @1440px (+768, 390)  11 different font sizes (14, 15, 16, 17, 18, 19, 20, 22, 32, 40, 107).
+      → A page needs about five: display, heading, lead, body, small.
+  [no-footage] @1440px  No video anywhere on the page.
+      → Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject.
+  [font-not-dealt] @1440px  The sheet dealt Switzer and Switzer, but the page renders Noto Sans TC.
+      → Load the dealt face (the link on the sheet) and put it first in font-family. A build that falls back to a default face lands on the default look.
+  [name-only-title] @390px  The h1 is a bare name ("象廚工房 義大利麵・南投市") and nothing else on the first screen says what this is.
+      → Keep the name if it leads, and give the line under it (18px or more) the plain words: what it is, for whom, where or when. In the study of 97 Sites of the Day, first screens that named nothing lost usability and content points.
+
+LOOK AT THE RENDER — open these with your image viewer / Read tool before saying anything about quality:
+  desktop 1440px  xiangchu/.taste/inspect/desktop-fold.jpg
+                  xiangchu/.taste/inspect/desktop-page-01.jpg
+                  xiangchu/.taste/inspect/desktop-page-02.jpg
+  tablet 768px    xiangchu/.taste/inspect/tablet-fold.jpg
+                  xiangchu/.taste/inspect/tablet-page-01.jpg
+  mobile 390px    xiangchu/.taste/inspect/mobile-fold.jpg
+                  xiangchu/.taste/inspect/mobile-page-01.jpg
+
+report: xiangchu/.taste/inspect/report.json
+RESULT: 0 FAIL, 5 WARN — measurements pass. Passing the meter is the floor, not the grade: score the screenshots with references/critique.md.

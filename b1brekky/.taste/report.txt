@@ -1,0 +1,31 @@
+TASTESKILL · INSPECT   b1brekky/index.html
+
+MEASURED (first viewport listed)
+  hero headline   "B1brekky 早午餐・南投草屯"  2 words · 1 line(s) · 106.6px (7.4vw) · Noto Sans TC 700 · tracking 0.02em · leading 1.05
+  @768px          2 line(s) · 56.8px
+  @390px          1 line(s) · 72px
+  typefaces       Noto Sans TC 100%
+  sizes in use    14 / 15 / 16 / 17 / 18 / 19 / 20 / 22 / 32 / 40 / 107 px   body 16px / 1.65
+  colour          page #eff1f1 · sections #dfe5e8 · button #2c4a6b
+  page            4.2 screens · 84 words · 10 images · hero media 22% img
+  headings        7 · longest 1 line(s) · median 1 words
+
+WARN — fix, or be able to defend
+  [size-count] @1440px (+768, 390)  11 different font sizes (14, 15, 16, 17, 18, 19, 20, 22, 32, 40, 107).
+      → A page needs about five: display, heading, lead, body, small.
+  [no-footage] @1440px  No video anywhere on the page.
+      → Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject.
+  [name-only-title] @390px  The h1 is a bare name ("B1brekky 早午餐・南投草屯") and nothing else on the first screen says what this is.
+      → Keep the name if it leads, and give the line under it (18px or more) the plain words: what it is, for whom, where or when. In the study of 97 Sites of the Day, first screens that named nothing lost usability and content points.
+
+LOOK AT THE RENDER — open these with your image viewer / Read tool before saying anything about quality:
+  desktop 1440px  b1brekky/.taste/inspect/desktop-fold.jpg
+                  b1brekky/.taste/inspect/desktop-page-01.jpg
+                  b1brekky/.taste/inspect/desktop-page-02.jpg
+  tablet 768px    b1brekky/.taste/inspect/tablet-fold.jpg
+                  b1brekky/.taste/inspect/tablet-page-01.jpg
+  mobile 390px    b1brekky/.taste/inspect/mobile-fold.jpg
+                  b1brekky/.taste/inspect/mobile-page-01.jpg
+
+report: b1brekky/.taste/inspect/report.json
+RESULT: 0 FAIL, 3 WARN — measurements pass. Passing the meter is the floor, not the grade: score the screenshots with references/critique.md.

@@ -1,0 +1,2755 @@
+{
+ "url": "pulichen/index.html",
+ "at": "2026-11-13T17:17:49.688Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.79,
+    0.39,
+    0.52,
+    0.55,
+    0.49,
+    0.56
+   ],
+   "motion": {
+    "elements": 12,
+    "css": 0,
+    "transitions": 12,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 4559,
+     "screens": 5.1,
+     "words": 103,
+     "img": 16,
+     "video": 0,
+     "canvas": 0,
+     "svg": 9,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 3,
+     "uiAbuse": false,
+     "realPictures": 13,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "p1.jpg",
+      "p3.jpg",
+      "p6.jpg",
+      "p3.jpg",
+      "p7.jpg",
+      "p10.jpg",
+      "p1.jpg",
+      "p3.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 1,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "埔里晨",
+     "words": 1,
+     "chars": 3,
+     "lines": 1,
+     "size": 84,
+     "vw": 5.8,
+     "font": "Noto Serif TC",
+     "weight": 700,
+     "tracking": 0.03,
+     "leading": 1.08,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.37,
+     "top": 440,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "埔里晨",
+     "words": 1,
+     "lines": 1,
+     "size": 84,
+     "font": "Noto Serif TC"
+    },
+    "headings": [
+     {
+      "text": "埔里晨",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 84,
+      "vw": 5.8,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0.03,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 440,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "有院子的兩層樓",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 46,
+      "vw": 3.2,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.46,
+      "top": 1024,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "房型",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 50,
+      "vw": 3.5,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.07,
+      "top": 1454,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "沙發雙人房",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 34,
+      "vw": 2.4,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.31,
+      "top": 1582,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "$2,200",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 38,
+      "vw": 2.6,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.06,
+      "top": 1685,
+      "tag": "b",
+      "kind": "statement"
+     },
+     {
+      "text": "梳妝鏡雙人房",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 34,
+      "vw": 2.4,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 2070,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "$2,200",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 38,
+      "vw": 2.6,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.06,
+      "top": 2173,
+      "tag": "b",
+      "kind": "statement"
+     },
+     {
+      "text": "在這裡住一晚",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 50,
+      "vw": 3.5,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 2510,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "15:00",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.24,
+      "top": 2914,
+      "tag": "time",
+      "kind": "heading"
+     },
+     {
+      "text": "傍晚",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.24,
+      "top": 2914,
+      "tag": "time",
+      "kind": "heading"
+     },
+     {
+      "text": "早上",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.24,
+      "top": 2914,
+      "tag": "time",
+      "kind": "heading"
+     },
+     {
+      "text": "照片",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 50,
+      "vw": 3.5,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.07,
+      "top": 3201,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "入住前看一下",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 50,
+      "vw": 3.5,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 3793,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "交通與聯絡",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.7,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.39,
+      "top": 4115,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 14,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Noto Sans TC",
+       "share": 0.83,
+       "mono": false
+      },
+      {
+       "family": "Noto Serif TC",
+       "share": 0.11,
+       "mono": false
+      },
+      {
+       "family": "Cormorant Garamond",
+       "share": 0.06,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      14,
+      16,
+      17,
+      18,
+      22,
+      24,
+      26,
+      28,
+      34,
+      38,
+      40,
+      46,
+      50,
+      84
+     ],
+     "sizeCount": 14,
+     "notLoaded": [],
+     "body": {
+      "font": "Noto Sans TC",
+      "size": 18,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 12.2
+     },
+     "measureChars": 73,
+     "max": {
+      "size": 84,
+      "vw": 5.8,
+      "font": "Noto Serif TC",
+      "text": "埔里晨"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.06,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f2f1ec",
+     "bodyBgHsl": {
+      "h": 50,
+      "s": 0.19,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#e3e1d6",
+       "top": 1542,
+       "hsl": {
+        "h": 51,
+        "s": 0.19,
+        "l": 0.86
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#22302a",
+       "share": 0.69
+      },
+      {
+       "color": "#f2f1ec",
+       "share": 0.22
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.03
+      },
+      {
+       "color": "#43514a",
+       "share": 0.02
+      },
+      {
+       "color": "#f4f3ee",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#22302a",
+      "hsl": {
+       "h": 154,
+       "s": 0.17,
+       "l": 0.16
+      },
+      "fg": "#f4f3ee"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 2,
+     "radius": 4,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "立即訂房",
+      "查空房"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 8,
+     "boxRadius": 6,
+     "squareMedia": 1,
+     "roundedMedia": 12,
+     "mediaRadius": 6,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 2598
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.78
+     }
+    ],
+    "nav": {
+     "links": 5,
+     "fixed": true,
+     "height": 76,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "cormorant garamond",
+     "noto sans tc",
+     "noto serif tc"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 4559,
+    "margins": {
+     "left": 84,
+     "right": 100
+    },
+    "sections": [
+     {
+      "sel": "div.hero",
+      "tag": "div",
+      "top": 116,
+      "height": 702,
+      "words": 7,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "埔里晨",
+       "size": 84,
+       "tag": "h1"
+      },
+      "left": 84,
+      "right": 1096,
+      "textLeft": 84,
+      "textRight": 1096,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "form#bar.bar",
+      "tag": "form",
+      "top": 754,
+      "height": 158,
+      "words": 9,
+      "media": 0,
+      "middle": 12,
+      "heading": null,
+      "left": 158,
+      "right": 158,
+      "textLeft": 158,
+      "textRight": 182,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.intro",
+      "tag": "div",
+      "top": 912,
+      "height": 429,
+      "words": 15,
+      "media": 0,
+      "middle": 104,
+      "heading": {
+       "text": "有院子的兩層樓",
+       "size": 46,
+       "tag": "h2"
+      },
+      "left": 100,
+      "right": 302,
+      "textLeft": 100,
+      "textRight": 302,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#rooms",
+      "tag": "section",
+      "top": 1342,
+      "height": 1028,
+      "words": 27,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "房型",
+       "size": 50,
+       "tag": "h2"
+      },
+      "left": 100,
+      "right": 100,
+      "textLeft": 100,
+      "textRight": 384,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#night",
+      "tag": "section",
+      "top": 2398,
+      "height": 691,
+      "words": 13,
+      "media": 3,
+      "middle": 28,
+      "heading": {
+       "text": "在這裡住一晚",
+       "size": 50,
+       "tag": "h2"
+      },
+      "left": 100,
+      "right": 100,
+      "textLeft": 100,
+      "textRight": 151,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#photos",
+      "tag": "section",
+      "top": 3089,
+      "height": 592,
+      "words": 4,
+      "media": 7,
+      "middle": 1894,
+      "heading": {
+       "text": "照片",
+       "size": 50,
+       "tag": "h2"
+      },
+      "left": 100,
+      "right": 0,
+      "textLeft": 100,
+      "textRight": 100,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#place",
+      "tag": "section",
+      "top": 3681,
+      "height": 649,
+      "words": 21,
+      "media": 1,
+      "middle": 252,
+      "heading": {
+       "text": "入住前看一下",
+       "size": 50,
+       "tag": "h2"
+      },
+      "left": 100,
+      "right": 100,
+      "textLeft": 100,
+      "textRight": 461,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "埔里晨",
+      "size": 84,
+      "top": 440,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 100,
+      "n": 6
+     },
+     {
+      "x": 84,
+      "n": 1
+     },
+     {
+      "x": 122,
+      "n": 1
+     },
+     {
+      "x": 140,
+      "n": 1
+     },
+     {
+      "x": 545,
+      "n": 1
+     },
+     {
+      "x": 758,
+      "n": 1
+     },
+     {
+      "x": 852,
+      "n": 1
+     },
+     {
+      "x": 967,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 13,
+    "bodySize": 18,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.01,
+    "voidBox": {
+     "x": 0,
+     "y": 840,
+     "w": 120,
+     "h": 60
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.71,
+    0.64,
+    0.88,
+    0.79,
+    0.63,
+    0.83
+   ],
+   "motion": {
+    "elements": 12,
+    "css": 0,
+    "transitions": 12,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 5750,
+     "screens": 5.6,
+     "words": 103,
+     "img": 16,
+     "video": 0,
+     "canvas": 0,
+     "svg": 9,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 3,
+     "uiAbuse": false,
+     "realPictures": 15,
+     "videoCount": 0,
+     "uiPictures": 1,
+     "pictureSamples": [
+      "p1.jpg",
+      "p3.jpg",
+      "p6.jpg",
+      "p3.jpg",
+      "p7.jpg",
+      "p10.jpg",
+      "p1.jpg",
+      "p3.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 1,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "埔里晨",
+     "words": 1,
+     "chars": 3,
+     "lines": 1,
+     "size": 84,
+     "vw": 10.9,
+     "font": "Noto Serif TC",
+     "weight": 700,
+     "tracking": 0.03,
+     "leading": 1.08,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.72,
+     "top": 518,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "埔里晨",
+     "words": 1,
+     "lines": 1,
+     "size": 84,
+     "font": "Noto Serif TC"
+    },
+    "headings": [
+     {
+      "text": "埔里晨",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 84,
+      "vw": 10.9,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0.03,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.72,
+      "top": 518,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "有院子的兩層樓",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1207,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "15:00",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.74,
+      "top": 1394,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "11:00",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.74,
+      "top": 1460,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "$2,200",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.08,
+      "top": 1526,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "房型",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.08,
+      "top": 1762,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "沙發雙人房",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.86,
+      "top": 2311,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "$2,200",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 38,
+      "vw": 4.9,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.12,
+      "top": 2405,
+      "tag": "b",
+      "kind": "statement"
+     },
+     {
+      "text": "梳妝鏡雙人房",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.86,
+      "top": 3082,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "$2,200",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 38,
+      "vw": 4.9,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.12,
+      "top": 3176,
+      "tag": "b",
+      "kind": "statement"
+     },
+     {
+      "text": "在這裡住一晚",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.25,
+      "top": 3434,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "15:00",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.35,
+      "top": 3520,
+      "tag": "time",
+      "kind": "heading"
+     },
+     {
+      "text": "傍晚",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.38,
+      "top": 3759,
+      "tag": "time",
+      "kind": "heading"
+     },
+     {
+      "text": "早上",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.48,
+      "top": 3997,
+      "tag": "time",
+      "kind": "heading"
+     },
+     {
+      "text": "照片",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.08,
+      "top": 4246,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "入住前看一下",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.25,
+      "top": 4634,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "交通與聯絡",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.7,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.86,
+      "top": 5354,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "埔里晨",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.1,
+      "top": 5669,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 18,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 6,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Noto Sans TC",
+       "share": 0.83,
+       "mono": false
+      },
+      {
+       "family": "Noto Serif TC",
+       "share": 0.11,
+       "mono": false
+      },
+      {
+       "family": "Cormorant Garamond",
+       "share": 0.06,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      14,
+      16,
+      17,
+      18,
+      21,
+      22,
+      24,
+      26,
+      28,
+      30,
+      32,
+      38,
+      40,
+      84
+     ],
+     "sizeCount": 14,
+     "notLoaded": [],
+     "body": {
+      "font": "Noto Sans TC",
+      "size": 18,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 12.2
+     },
+     "measureChars": 79,
+     "max": {
+      "size": 84,
+      "vw": 10.9,
+      "font": "Noto Serif TC",
+      "text": "埔里晨"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.06,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f2f1ec",
+     "bodyBgHsl": {
+      "h": 50,
+      "s": 0.19,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#e3e1d6",
+       "top": 1828,
+       "hsl": {
+        "h": 51,
+        "s": 0.19,
+        "l": 0.86
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#22302a",
+       "share": 0.69
+      },
+      {
+       "color": "#f2f1ec",
+       "share": 0.22
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.03
+      },
+      {
+       "color": "#43514a",
+       "share": 0.02
+      },
+      {
+       "color": "#f4f3ee",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#22302a",
+      "hsl": {
+       "h": 154,
+       "s": 0.17,
+       "l": 0.16
+      },
+      "fg": "#f4f3ee"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 1,
+     "radius": 4,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "立即訂房"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 8,
+     "boxRadius": 6,
+     "squareMedia": 1,
+     "roundedMedia": 11,
+     "mediaRadius": 6,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.74
+     }
+    ],
+    "nav": {
+     "links": 5,
+     "fixed": true,
+     "height": 76,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "cormorant garamond",
+     "noto sans tc",
+     "noto serif tc"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 5750,
+    "margins": {
+     "left": 31,
+     "right": 31
+    },
+    "sections": [
+     {
+      "sel": "div.hero",
+      "tag": "div",
+      "top": 116,
+      "height": 760,
+      "words": 7,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "埔里晨",
+       "size": 84,
+       "tag": "h1"
+      },
+      "left": 54,
+      "right": 455,
+      "textLeft": 54,
+      "textRight": 455,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "form#bar.bar",
+      "tag": "form",
+      "top": 828,
+      "height": 316,
+      "words": 9,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 49,
+      "right": 49,
+      "textLeft": 49,
+      "textRight": 314,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.intro",
+      "tag": "div",
+      "top": 1143,
+      "height": 555,
+      "words": 15,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "有院子的兩層樓",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 35,
+      "textLeft": 31,
+      "textRight": 35,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#rooms",
+      "tag": "section",
+      "top": 1698,
+      "height": 1656,
+      "words": 27,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "$2,200",
+       "size": 38,
+       "tag": "b"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 430,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#night",
+      "tag": "section",
+      "top": 3370,
+      "height": 803,
+      "words": 13,
+      "media": 3,
+      "middle": 22,
+      "heading": {
+       "text": "15:00",
+       "size": 40,
+       "tag": "time"
+      },
+      "left": 31,
+      "right": 96,
+      "textLeft": 31,
+      "textRight": 96,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#photos",
+      "tag": "section",
+      "top": 4173,
+      "height": 398,
+      "words": 3,
+      "media": 9,
+      "middle": 1705,
+      "heading": {
+       "text": "照片",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 0,
+      "textLeft": 31,
+      "textRight": 157,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#place",
+      "tag": "section",
+      "top": 4570,
+      "height": 999,
+      "words": 21,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "入住前看一下",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 355,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "埔里晨",
+      "size": 84,
+      "top": 518,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 31,
+      "n": 6
+     },
+     {
+      "x": 54,
+      "n": 4
+     },
+     {
+      "x": 349,
+      "n": 3
+     }
+    ],
+    "leftBlocks": 13,
+    "bodySize": 18,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.73,
+    0.68,
+    0.72,
+    0.78,
+    0.89,
+    0.72,
+    0.87,
+    0.84
+   ],
+   "motion": {
+    "elements": 12,
+    "css": 0,
+    "transitions": 12,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 5937,
+     "screens": 7,
+     "words": 99,
+     "img": 16,
+     "video": 0,
+     "canvas": 0,
+     "svg": 9,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 3,
+     "uiAbuse": false,
+     "realPictures": 13,
+     "videoCount": 0,
+     "uiPictures": 1,
+     "pictureSamples": [
+      "p1.jpg",
+      "p3.jpg",
+      "p6.jpg",
+      "p3.jpg",
+      "p7.jpg",
+      "p10.jpg",
+      "p1.jpg",
+      "p3.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 1,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "埔里晨",
+     "words": 1,
+     "chars": 3,
+     "lines": 1,
+     "size": 64,
+     "vw": 16.4,
+     "font": "Noto Serif TC",
+     "weight": 700,
+     "tracking": 0.03,
+     "leading": 1.08,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 610,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "埔里晨",
+     "words": 1,
+     "lines": 1,
+     "size": 64,
+     "font": "Noto Serif TC"
+    },
+    "headings": [
+     {
+      "text": "埔里晨",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.17,
+      "top": 61,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "埔里晨",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 64,
+      "vw": 16.4,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0.03,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 610,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "5.0",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.07,
+      "top": 774,
+      "tag": "b",
+      "kind": "statement"
+     },
+     {
+      "text": "有院子的兩層樓",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1207,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "15:00",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 26,
+      "vw": 6.7,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.57,
+      "top": 1445,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "11:00",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 26,
+      "vw": 6.7,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.57,
+      "top": 1511,
+      "tag": "dd",
+      "kind": "statement"
+     },
+     {
+      "text": "$2,200",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 26,
+      "vw": 6.7,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.16,
+      "top": 1577,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "房型",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.16,
+      "top": 1813,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "沙發雙人房",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 26,
+      "vw": 6.7,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.81,
+      "top": 2169,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "$2,200",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 38,
+      "vw": 9.7,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.23,
+      "top": 2263,
+      "tag": "b",
+      "kind": "statement"
+     },
+     {
+      "text": "梳妝鏡雙人房",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 26,
+      "vw": 6.7,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.81,
+      "top": 2747,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "$2,200",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 38,
+      "vw": 9.7,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.23,
+      "top": 2840,
+      "tag": "b",
+      "kind": "statement"
+     },
+     {
+      "text": "在這裡住一晚",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.49,
+      "top": 3098,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "15:00",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.81,
+      "top": 3385,
+      "tag": "time",
+      "kind": "heading"
+     },
+     {
+      "text": "入住",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.7,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.81,
+      "top": 3435,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "傍晚",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.81,
+      "top": 3769,
+      "tag": "time",
+      "kind": "heading"
+     },
+     {
+      "text": "院子烤肉",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.7,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.81,
+      "top": 3819,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "早上",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Cormorant Garamond",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.81,
+      "top": 4153,
+      "tag": "time",
+      "kind": "heading"
+     },
+     {
+      "text": "早上看花",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.7,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.81,
+      "top": 4203,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "照片",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.16,
+      "top": 4401,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "入住前看一下",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.49,
+      "top": 4784,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "交通與聯絡",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.7,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 5503,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "埔里晨",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 26,
+      "vw": 6.7,
+      "font": "Noto Serif TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 5819,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 23,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 7,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Noto Sans TC",
+       "share": 0.83,
+       "mono": false
+      },
+      {
+       "family": "Noto Serif TC",
+       "share": 0.11,
+       "mono": false
+      },
+      {
+       "family": "Cormorant Garamond",
+       "share": 0.06,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      14,
+      16,
+      17,
+      18,
+      21,
+      22,
+      24,
+      26,
+      28,
+      30,
+      32,
+      38,
+      40,
+      64
+     ],
+     "sizeCount": 14,
+     "notLoaded": [],
+     "body": {
+      "font": "Noto Sans TC",
+      "size": 18,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 12.2
+     },
+     "measureChars": 40,
+     "max": {
+      "size": 64,
+      "vw": 16.4,
+      "font": "Noto Serif TC",
+      "text": "埔里晨"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.06,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f2f1ec",
+     "bodyBgHsl": {
+      "h": 50,
+      "s": 0.19,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f2f1ec",
+       "top": 588,
+       "hsl": {
+        "h": 50,
+        "s": 0.19,
+        "l": 0.94
+       }
+      },
+      {
+       "color": "#22302a",
+       "top": 828,
+       "hsl": {
+        "h": 154,
+        "s": 0.17,
+        "l": 0.16
+       }
+      },
+      {
+       "color": "#e3e1d6",
+       "top": 1879,
+       "hsl": {
+        "h": 51,
+        "s": 0.19,
+        "l": 0.86
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#22302a",
+       "share": 0.68
+      },
+      {
+       "color": "#f2f1ec",
+       "share": 0.22
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.03
+      },
+      {
+       "color": "#43514a",
+       "share": 0.03
+      },
+      {
+       "color": "#f4f3ee",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#22302a",
+      "hsl": {
+       "h": 154,
+       "s": 0.17,
+       "l": 0.16
+      },
+      "fg": "#f4f3ee"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 1,
+     "radius": 4,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "立即訂房"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 7,
+     "boxRadius": 6,
+     "squareMedia": 1,
+     "roundedMedia": 11,
+     "mediaRadius": 6,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.56
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 76,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "cormorant garamond",
+     "noto sans tc",
+     "noto serif tc"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 5937,
+    "margins": {
+     "left": 16,
+     "right": 16
+    },
+    "sections": [
+     {
+      "sel": "div.hero",
+      "tag": "div",
+      "top": 116,
+      "height": 760,
+      "words": 7,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "埔里晨",
+       "size": 64,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 164,
+      "textLeft": 16,
+      "textRight": 164,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "form#bar.bar",
+      "tag": "form",
+      "top": 828,
+      "height": 316,
+      "words": 9,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 34,
+      "right": 34,
+      "textLeft": 34,
+      "textRight": 69,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.intro",
+      "tag": "div",
+      "top": 1143,
+      "height": 605,
+      "words": 15,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "有院子的兩層樓",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 32,
+      "textLeft": 16,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#rooms",
+      "tag": "section",
+      "top": 1749,
+      "height": 1269,
+      "words": 27,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "$2,200",
+       "size": 38,
+       "tag": "b"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 68,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#night",
+      "tag": "section",
+      "top": 3034,
+      "height": 1294,
+      "words": 13,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "15:00",
+       "size": 40,
+       "tag": "time"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 51,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#photos",
+      "tag": "section",
+      "top": 4328,
+      "height": 392,
+      "words": 2,
+      "media": 7,
+      "middle": 1348,
+      "heading": {
+       "text": "照片",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 0,
+      "textLeft": 16,
+      "textRight": 192,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#place",
+      "tag": "section",
+      "top": 4720,
+      "height": 999,
+      "words": 21,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "入住前看一下",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 43,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer",
+      "tag": "footer",
+      "top": 5783,
+      "height": 154,
+      "words": 3,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "埔里晨",
+       "size": 26,
+       "tag": "p"
+      },
+      "left": 16,
+      "right": 80,
+      "textLeft": 16,
+      "textRight": 80,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "埔里晨",
+      "size": 64,
+      "top": 610,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 16,
+      "n": 7
+     },
+     {
+      "x": 38,
+      "n": 6
+     }
+    ],
+    "leftBlocks": 13,
+    "bodySize": 18,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "palette-cream",
+   "width": 1440,
+   "message": "Yellow-cream background (page background #f2f1ec, text #f2f1ec, text #f4f3ee).",
+   "fix": "Use the drawn palette. If you want warmth, take a low-chroma stone or bone, not a yellow cream.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "font-count",
+   "width": 1440,
+   "message": "3 typefaces in use (Noto Sans TC, Noto Serif TC, Cormorant Garamond).",
+   "fix": "Two at most.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "14 different font sizes (14, 16, 17, 18, 22, 24, 26, 28, 34, 38, 40, 46, 50, 84).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "side-scroll",
+   "width": 1440,
+   "message": "1 row(s) scroll sideways with content past their edge.",
+   "fix": "Jurors and most visitors read a row cut at the edge as clipped, not as scrollable. Wrap it onto more lines, or end it inside the grid.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "off-centre",
+   "width": 1440,
+   "message": "The margins differ: 84px on the left, 100px on the right, at 1440px.",
+   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page."
+  },
+  {
+   "level": "WARN",
+   "id": "name-only-title",
+   "width": 1440,
+   "message": "The h1 is a bare name (\"埔里晨\") and nothing else on the first screen says what this is.",
+   "fix": "Keep the name if it leads, and give the line under it (18px or more) the plain words: what it is, for whom, where or when. In the study of 97 Sites of the Day, first screens that named nothing lost usability and content points.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Little motion: 12 element(s) moved while the page loaded and scrolled.",
+   "fix": "Give every section an entrance for its parts (not one fade of the whole block) and add one moving picture: a looping clip or a slow move on a photograph."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\minxi\\Documents\\接案紀錄\\previews3\\pulichen\\.taste\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\minxi\\Documents\\接案紀錄\\previews3\\pulichen\\.taste\\desktop-page-01.jpg",
+    "C:\\Users\\minxi\\Documents\\接案紀錄\\previews3\\pulichen\\.taste\\desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\minxi\\Documents\\接案紀錄\\previews3\\pulichen\\.taste\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\minxi\\Documents\\接案紀錄\\previews3\\pulichen\\.taste\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\minxi\\Documents\\接案紀錄\\previews3\\pulichen\\.taste\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\minxi\\Documents\\接案紀錄\\previews3\\pulichen\\.taste\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}
