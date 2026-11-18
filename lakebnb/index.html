@@ -105,7 +105,9 @@ section { padding: var(--sec) 0 0; }
 .day figure { margin: 0; position: relative; border-radius: 14px; overflow: hidden; }
 .day img { width: 100%; height: 100%; object-fit: cover; }
 .day figcaption { position: absolute; left: 12px; bottom: 12px; background: var(--paper); font-size: 14px; font-weight: 500; padding: 4px 12px; border-radius: 999px; }
-.d1 { grid-column: span 7; aspect-ratio: 4 / 3; } .d2 { grid-column: span 5; } .d3 { grid-column: span 4; aspect-ratio: 1; } .d4 { grid-column: span 4; aspect-ratio: 1; } .d5 { grid-column: span 4; aspect-ratio: 1; }
+.d1 { grid-column: span 7; aspect-ratio: 4 / 3; } .d2 { grid-column: span 5; }
+/* .d2 takes the row height set by .d1, so a portrait photo cannot stretch the row */
+@media (min-width: 901px) { .day .d2 img { position: absolute; inset: 0; } } .d3 { grid-column: span 4; aspect-ratio: 1; } .d4 { grid-column: span 4; aspect-ratio: 1; } .d5 { grid-column: span 4; aspect-ratio: 1; }
 
 /* rules */
 .rules { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
@@ -200,9 +202,11 @@ dialog::backdrop { background: rgb(10 24 30 / .6); }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
 
+.hero h1.long { font-size: clamp(52px, 5.6vw, 84px); }
 /* hero variants */
-.hero-collage { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); min-height: min(86vh, 820px); }
-.hc { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 8px; padding: 8px; }
+.hero-collage { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); height: min(82vh, 760px); min-height: 560px; }
+.hc { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: repeat(2, minmax(0, 1fr)); gap: 8px; padding: 8px; min-height: 0; }
+.hc img { min-height: 0; }
 .hc img { width: 100%; height: 100%; object-fit: cover; border-radius: 10px; }
 .hc1 { grid-row: span 2; }
 .hero-full { position: relative; display: block; min-height: min(88vh, 860px); }
@@ -230,7 +234,7 @@ dialog::backdrop { background: rgb(10 24 30 / .6); }
 .sg-t { padding: 0; border: 0; border-radius: 12px; overflow: hidden; cursor: pointer; aspect-ratio: 4 / 3; }
 .sg-t img { width: 100%; height: 100%; object-fit: cover; }
 @media (max-width: 900px) {
-  .hero-collage { grid-template-columns: 1fr; min-height: 0; }
+  .hero-collage { grid-template-columns: 1fr; height: auto; min-height: 0; }
   .hc { order: -1; aspect-ratio: 4 / 3; }
   .hero-full .hero-t { min-height: 78vh; justify-content: flex-end; }
   .grid-rooms.cols3, .grid-rooms.cols4 { grid-template-columns: 1fr 1fr; }
@@ -340,10 +344,10 @@ dialog::backdrop { background: rgb(10 24 30 / .6); }
 <script>
 (function () {
   'use strict';
-  var R = [{"name": "豪華四人房", "max": 4, "size": "12 坪", "bed": "大雙人床 ×2", "wk": 5200, "sat": 6800, "imgs": ["r1-01.jpg", "r1-02.jpg", "r1-04.jpg", "r1-05.jpg", "r1-06.jpg", "r1-07.jpg", "r1-08.jpg", "r1-09.jpg", "r1-10.jpg", "r1-11.jpg", "r1-12.jpg"], "feats": ["TOTO 衛浴、感應式門卡"]}, {"name": "豪華二人房", "max": 2, "size": "11 坪", "bed": "大雙人床", "wk": 4000, "sat": 5000, "imgs": ["r2-01.jpg", "r2-02.jpg", "r2-03.jpg", "r2-04.jpg", "r2-05.jpg", "r2-06.jpg", "r2-07.jpg", "r2-08.jpg", "r2-09.jpg", "r2-10.jpg"], "feats": ["TOTO 衛浴、感應式門卡"]}, {"name": "中高樓層四人房", "max": 4, "size": "12 坪", "bed": "大雙人床 ×2", "wk": 4400, "sat": 5800, "imgs": ["r3-02.jpg", "r3-03.jpg", "r3-04.jpg", "r3-05.jpg", "r3-06.jpg", "r3-07.jpg", "r3-08.jpg", "r3-09.jpg", "r3-10.jpg"], "feats": ["TOTO 衛浴、感應式門卡"]}, {"name": "中高樓層二人房", "max": 2, "size": "11 坪", "bed": "大雙人床", "wk": 3200, "sat": 4500, "imgs": ["r4-01.jpg", "r4-02.jpg", "r4-03.jpg", "r4-04.jpg", "r4-05.jpg", "r4-06.jpg", "r4-07.jpg", "r4-08.jpg"], "feats": ["TOTO 衛浴、感應式門卡"]}, {"name": "標準四人房", "max": 4, "size": "12 坪", "bed": "大雙人床 ×2", "wk": 3800, "sat": 5000, "imgs": ["r5-02.jpg", "r5-03.jpg", "r5-04.jpg", "r5-05.jpg", "r5-06.jpg", "r5-07.jpg", "r5-08.jpg", "r5-09.jpg", "r5-10.jpg"], "feats": ["TOTO 衛浴、感應式門卡"]}, {"name": "標準二人房", "max": 2, "size": "11 坪", "bed": "大雙人床", "wk": 2800, "sat": 3800, "imgs": ["r6-01.jpg", "r6-03.jpg", "r6-04.jpg", "r6-05.jpg", "r6-06.jpg", "r6-07.jpg", "r6-08.jpg", "r6-09.jpg", "r6-10.jpg"], "feats": ["TOTO 衛浴、感應式門卡"]}];
+  var R = [{"name": "豪華四人房", "max": 4, "size": "12 坪", "bed": "大雙人床 ×2", "wk": 5200, "sat": 6800, "imgs": ["r1-01.jpg", "r1-02.jpg", "r1-04.jpg", "r1-05.jpg", "r1-06.jpg", "r1-07.jpg", "r1-08.jpg", "r1-09.jpg", "r1-10.jpg", "r1-11.jpg", "r1-12.jpg"], "feats": ["TOTO 衛浴、感應式門卡"], "extra": null, "base": null}, {"name": "豪華二人房", "max": 2, "size": "11 坪", "bed": "大雙人床", "wk": 4000, "sat": 5000, "imgs": ["r2-01.jpg", "r2-02.jpg", "r2-03.jpg", "r2-04.jpg", "r2-05.jpg", "r2-06.jpg", "r2-07.jpg", "r2-08.jpg", "r2-09.jpg", "r2-10.jpg"], "feats": ["TOTO 衛浴、感應式門卡"], "extra": null, "base": null}, {"name": "中高樓層四人房", "max": 4, "size": "12 坪", "bed": "大雙人床 ×2", "wk": 4400, "sat": 5800, "imgs": ["r3-02.jpg", "r3-03.jpg", "r3-04.jpg", "r3-05.jpg", "r3-06.jpg", "r3-07.jpg", "r3-08.jpg", "r3-09.jpg", "r3-10.jpg"], "feats": ["TOTO 衛浴、感應式門卡"], "extra": null, "base": null}, {"name": "中高樓層二人房", "max": 2, "size": "11 坪", "bed": "大雙人床", "wk": 3200, "sat": 4500, "imgs": ["r4-01.jpg", "r4-02.jpg", "r4-03.jpg", "r4-04.jpg", "r4-05.jpg", "r4-06.jpg", "r4-07.jpg", "r4-08.jpg"], "feats": ["TOTO 衛浴、感應式門卡"], "extra": null, "base": null}, {"name": "標準四人房", "max": 4, "size": "12 坪", "bed": "大雙人床 ×2", "wk": 3800, "sat": 5000, "imgs": ["r5-02.jpg", "r5-03.jpg", "r5-04.jpg", "r5-05.jpg", "r5-06.jpg", "r5-07.jpg", "r5-08.jpg", "r5-09.jpg", "r5-10.jpg"], "feats": ["TOTO 衛浴、感應式門卡"], "extra": null, "base": null}, {"name": "標準二人房", "max": 2, "size": "11 坪", "bed": "大雙人床", "wk": 2800, "sat": 3800, "imgs": ["r6-01.jpg", "r6-03.jpg", "r6-04.jpg", "r6-05.jpg", "r6-06.jpg", "r6-07.jpg", "r6-08.jpg", "r6-09.jpg", "r6-10.jpg"], "feats": ["TOTO 衛浴、感應式門卡"], "extra": null, "base": null}];
   var $ = function (s, r) { return (r || document).querySelector(s); };
   var $$ = function (s, r) { return [].slice.call((r || document).querySelectorAll(s)); };
-  var fmt = function (n) { return '$' + n.toLocaleString('en-US'); };
+  var fmt = function (n) { return n == null ? '請洽民宿' : '$' + n.toLocaleString('en-US'); };
   var iso = function (d) { return d.toISOString().slice(0, 10); };
   var day = 864e5;
   function nights(ci, co) {
@@ -351,7 +355,12 @@ dialog::backdrop { background: rgb(10 24 30 / .6); }
     for (var t = a.getTime(); t < b.getTime(); t += day) out.push(new Date(t));
     return out;
   }
-  function cost(r, ci, co) { return nights(ci, co).reduce(function (s, d) { return s + (d.getUTCDay() === 6 ? (r.sat || r.wk) : r.wk); }, 0); }
+  function cost(r, ci, co) {
+    if (!r.wk) return null;
+    var ppl = +(document.getElementById('b-ppl') || {}).value || 2;
+    var ex = r.extra ? Math.max(0, ppl - (r.base || 2)) * r.extra : 0;
+    return nights(ci, co).reduce(function (s, d) { return s + (d.getUTCDay() === 6 ? (r.sat || r.wk) : r.wk) + ex; }, 0);
+  }
 
   /* default dates: two weeks from now, one night */
   var d0 = new Date(Date.now() + 14 * day), d1 = new Date(d0.getTime() + day);
@@ -370,7 +379,7 @@ dialog::backdrop { background: rgb(10 24 30 / .6); }
     ri = i; var r = R[i];
     $('#rd-name').textContent = r.name;
     $('#rd-list').innerHTML = [r.bed, (r.size ? r.size + '，' : '') + '最多 ' + r.max + ' 人'].concat(r.feats || []).filter(Boolean).map(function (x) { return '<li>' + x + '</li>'; }).join('');
-    $('#rd-price').innerHTML = r.sat ? '<div><small>平日（週日～週五）</small><b>' + fmt(r.wk) + '</b></div><div><small>週六</small><b>' + fmt(r.sat) + '</b></div>' : '<div><small>每晚</small><b>' + fmt(r.wk) + ' 起</b></div>';
+    $('#rd-price').innerHTML = !r.wk ? '<div><small>房價</small><b>請洽民宿</b></div>' : r.sat ? '<div><small>平日（週日～週五）</small><b>' + fmt(r.wk) + '</b></div><div><small>週六</small><b>' + fmt(r.sat) + '</b></div>' : '<div><small>每晚</small><b>' + fmt(r.wk) + ' 起</b></div>';
     $('#rd-th').innerHTML = r.imgs.map(function (s, j) { return '<button type="button" data-k="' + j + '" aria-label="第 ' + (j + 1) + ' 張"><img src="img/' + s + '" alt="" loading="lazy"></button>'; }).join('');
     show(0); if (!rd.open) rd.showModal();
   }

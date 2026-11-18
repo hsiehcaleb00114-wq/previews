@@ -105,7 +105,9 @@ section { padding: var(--sec) 0 0; }
 .day figure { margin: 0; position: relative; border-radius: 14px; overflow: hidden; }
 .day img { width: 100%; height: 100%; object-fit: cover; }
 .day figcaption { position: absolute; left: 12px; bottom: 12px; background: var(--paper); font-size: 14px; font-weight: 500; padding: 4px 12px; border-radius: 999px; }
-.d1 { grid-column: span 7; aspect-ratio: 4 / 3; } .d2 { grid-column: span 5; } .d3 { grid-column: span 4; aspect-ratio: 1; } .d4 { grid-column: span 4; aspect-ratio: 1; } .d5 { grid-column: span 4; aspect-ratio: 1; }
+.d1 { grid-column: span 7; aspect-ratio: 4 / 3; } .d2 { grid-column: span 5; }
+/* .d2 takes the row height set by .d1, so a portrait photo cannot stretch the row */
+@media (min-width: 901px) { .day .d2 img { position: absolute; inset: 0; } } .d3 { grid-column: span 4; aspect-ratio: 1; } .d4 { grid-column: span 4; aspect-ratio: 1; } .d5 { grid-column: span 4; aspect-ratio: 1; }
 
 /* rules */
 .rules { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
@@ -292,7 +294,7 @@ dialog::backdrop { background: rgb(10 24 30 / .6); }
       <div class="act-t"><h2>露台上<br>看雲海</h2><p>木頭露台和藍色觀景台對著整片山谷。傍晚太陽下山時，雲海會染成橘紅色。</p><ul><li><b>雲海</b><span>天氣條件對的時候看得到</span></li><li><b>夕陽</b><span>露台正對山谷</span></li><li><b>餐廳</b><span>大窗也對著山谷</span></li><li><b>茶園和竹林</b><span>農場周圍都是</span></li></ul></div>
     </div></div></section><section id="day"><div class="wrap">
     <div class="sh"><h2>山上的一天</h2><p>山上晚上和清晨比平地冷，記得帶外套。</p></div><div class="day"><figure class="d1"><img src="img/p1.jpg" alt="露台上的早晨" width="1600" height="1200" loading="lazy"><figcaption>露台上的早晨</figcaption></figure><figure class="d2"><img src="img/p2.jpg" alt="山谷" width="1600" height="1200" loading="lazy"><figcaption>山谷</figcaption></figure><figure class="d3"><img src="img/p7.jpg" alt="餐廳" width="1600" height="1200" loading="lazy"><figcaption>餐廳</figcaption></figure><figure class="d4"><img src="img/p6.jpg" alt="傍晚的雲海" width="1600" height="1200" loading="lazy"><figcaption>傍晚的雲海</figcaption></figure><figure class="d5"><img src="img/p8.jpg" alt="上山的路" width="1600" height="1200" loading="lazy"><figcaption>上山的路</figcaption></figure></div></div></section><section id="rules"><div class="wrap">
-    <div class="sh"><h2>住宿須知</h2><p>訂房請打電話問空房和房價。</p></div><div class="rules"><div class="rule big"><h3>入住和退房</h3><b>15:00 → 11:00</b><p>會晚到請先聯絡。</p></div><div class="rule"><h3>帶外套</h3><p>山上晚上和清晨比較冷。</p></div></div></div></section><section id="visit"><div class="wrap">
+    <div class="sh"><h2>住宿須知</h2><p>訂房請打電話問空房和房價。</p></div><div class="rules"><div class="rule big"><h3>入住和退房</h3><b>15:00 → 11:00</b><p>會晚到請先聯絡。</p></div><div class="rule"><h3>帶外套</h3><p>山上晚上和清晨比較冷。</p></div><div class="rule"><h3>山路</h3><p>上山的路彎多，晚上開車要慢。</p></div><div class="rule"><h3>帳篷房</h3><p>最多住四人，有獨立洗手台。</p></div><div class="rule"><h3>看雲海</h3><p>要看天氣，不是每天都有。</p></div><div class="rule"><h3>訂房方式</h3><p>打電話問空房，房價依日期不同。</p></div></div></div></section><section id="visit"><div class="wrap">
     <div class="sh"><h2>交通</h2></div>
     <div class="visit"><div class="info"><dl><div><dt>地址</dt><dd>南投縣竹山鎮大林巷 16-50 號</dd></div><div><dt>電話</dt><dd><a href="tel:0921655768">0921-655-768</a></dd></div><div><dt>附近</dt><dd>竹山的山上，周圍是茶園和竹林</dd></div></dl>
       <div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=%E7%A9%BA%E4%B8%AD%E9%82%8A%E5%A2%83%E6%99%AF%E8%A7%80%E8%BE%B2%E5%A0%B4" target="_blank" rel="noopener">導航過去</a><a class="btn ghost" style="color:var(--lake)" href="tel:0921655768">打電話</a></div></div>

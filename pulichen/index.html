@@ -105,7 +105,9 @@ section { padding: var(--sec) 0 0; }
 .day figure { margin: 0; position: relative; border-radius: 14px; overflow: hidden; }
 .day img { width: 100%; height: 100%; object-fit: cover; }
 .day figcaption { position: absolute; left: 12px; bottom: 12px; background: var(--paper); font-size: 14px; font-weight: 500; padding: 4px 12px; border-radius: 999px; }
-.d1 { grid-column: span 7; aspect-ratio: 4 / 3; } .d2 { grid-column: span 5; } .d3 { grid-column: span 4; aspect-ratio: 1; } .d4 { grid-column: span 4; aspect-ratio: 1; } .d5 { grid-column: span 4; aspect-ratio: 1; }
+.d1 { grid-column: span 7; aspect-ratio: 4 / 3; } .d2 { grid-column: span 5; }
+/* .d2 takes the row height set by .d1, so a portrait photo cannot stretch the row */
+@media (min-width: 901px) { .day .d2 img { position: absolute; inset: 0; } } .d3 { grid-column: span 4; aspect-ratio: 1; } .d4 { grid-column: span 4; aspect-ratio: 1; } .d5 { grid-column: span 4; aspect-ratio: 1; }
 
 /* rules */
 .rules { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
@@ -292,7 +294,7 @@ dialog::backdrop { background: rgb(10 24 30 / .6); }
       <div class="act-t"><h2>晚上，<br>在院子烤肉</h2><p>屋外有烤肉爐和烤肉架，自己帶食材來烤。一樓的開放式廚房也可以用，院子種滿了花。</p><ul><li><b>烤肉</b><span>烤肉爐和烤肉架都有</span></li><li><b>開放式廚房</b><span>一樓木頭餐桌旁</span></li><li><b>充氣泳池</b><span>夏天小朋友可以玩水</span></li><li><b>院子</b><span>種滿紅花</span></li></ul></div>
     </div></div></section><section id="day"><div class="wrap">
     <div class="sh"><h2>在埔里晨的一天</h2><p>早上去院子看花，白天出去玩，晚上回來烤肉。</p></div><div class="day"><figure class="d1"><img src="img/p10.jpg" alt="早上看花" width="1600" height="1200" loading="lazy"><figcaption>早上看花</figcaption></figure><figure class="d2"><img src="img/p4.jpg" alt="夏天的充氣泳池" width="1600" height="1200" loading="lazy"><figcaption>夏天的充氣泳池</figcaption></figure><figure class="d3"><img src="img/p9.jpg" alt="一樓廚房" width="1600" height="1200" loading="lazy"><figcaption>一樓廚房</figcaption></figure><figure class="d4"><img src="img/p8.jpg" alt="木頭餐桌" width="1600" height="1200" loading="lazy"><figcaption>木頭餐桌</figcaption></figure><figure class="d5"><img src="img/p1.jpg" alt="晚上的燈泡" width="1600" height="1200" loading="lazy"><figcaption>晚上的燈泡</figcaption></figure></div></div></section><section id="rules"><div class="wrap">
-    <div class="sh"><h2>住宿須知</h2><p>訂房可以打電話，或在 Facebook 粉專傳訊息。</p></div><div class="rules"><div class="rule big"><h3>入住和退房</h3><b>15:00 → 11:00</b><p>會晚到請先聯絡。</p></div><div class="rule"><h3>烤肉</h3><p>屋外有烤肉爐，食材請自己準備。</p></div></div></div></section><section id="visit"><div class="wrap">
+    <div class="sh"><h2>住宿須知</h2><p>訂房可以打電話，或在 Facebook 粉專傳訊息。</p></div><div class="rules"><div class="rule big"><h3>入住和退房</h3><b>15:00 → 11:00</b><p>會晚到請先聯絡。</p></div><div class="rule"><h3>烤肉</h3><p>屋外有烤肉爐，食材請自己準備。</p></div><div class="rule"><h3>廚房</h3><p>一樓開放式廚房和木頭餐桌可以用。</p></div><div class="rule"><h3>充氣泳池</h3><p>夏天才有，小朋友玩水請大人陪著。</p></div><div class="rule"><h3>帶寵物</h3><p>想帶寵物一起來，請先問民宿。</p></div><div class="rule"><h3>訂房方式</h3><p>打電話，或在 Facebook 粉專傳訊息。</p></div></div></div></section><section id="visit"><div class="wrap">
     <div class="sh"><h2>交通</h2></div>
     <div class="visit"><div class="info"><dl><div><dt>地址</dt><dd>南投縣埔里鎮水頭路 40 號</dd></div><div><dt>電話</dt><dd><a href="tel:0958303087">0958-303-087</a></dd></div><div><dt>Facebook</dt><dd>可以在粉專傳訊息</dd></div></dl>
       <div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=%E5%9F%94%E9%87%8C%E6%99%A8%20%E6%B0%91%E5%AE%BF" target="_blank" rel="noopener">導航過去</a><a class="btn ghost" style="color:var(--lake)" href="tel:0958303087">打電話</a></div></div>
