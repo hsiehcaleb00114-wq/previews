@@ -16,6 +16,7 @@
   --w: 1240px; --m: clamp(16px, 4vw, 48px); --sec: clamp(72px, 9vw, 128px);
 }
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 html { scroll-behavior: smooth; }
 body { margin: 0; background: var(--sand); color: var(--ink); font: 400 17px/1.75 var(--sans); }
 img { display: block; max-width: 100%; height: auto; }
@@ -421,9 +422,13 @@ dialog::backdrop { background: rgb(10 24 30 / .6); }
     }).join('');
   }
   function go(s) {
+    s = Math.max(1, Math.min(4, s));
     if (s === 2 && nights($('#b-ci').value, $('#b-co').value).length < 1) { sum(); return; }
     if (s === 3 && pickIdx == null) { $('#b-sum').textContent = '先選一間房'; return; }
-    if (s === 4 && !$('#b-name').value.trim()) { $('#b-name').focus(); return; }
+    if (s === 4 && (!$('#b-name').value.trim() || !$('#b-tel').value.trim())) {
+      $('#b-sum').textContent = '請填姓名和手機，民宿才能跟你確認';
+      (!$('#b-name').value.trim() ? $('#b-name') : $('#b-tel')).focus(); return;
+    }
     step = s;
     $$('[data-step]', bk).forEach(function (el) { el.hidden = +el.dataset.step !== s; });
     $$('.steps li', bk).forEach(function (li, j) { li.classList.toggle('on', j + 1 === s); });
