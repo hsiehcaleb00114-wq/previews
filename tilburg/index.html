@@ -200,6 +200,7 @@ dialog::backdrop { background: rgb(10 24 30 / .6); }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
 
+.hero h1.long { font-size: clamp(52px, 5.6vw, 84px); }
 /* hero variants */
 .hero-collage { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); min-height: min(86vh, 820px); }
 .hc { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 8px; padding: 8px; }
@@ -273,7 +274,7 @@ dialog::backdrop { background: rgb(10 24 30 / .6); }
 <main id="top">
   <section class="hero hero-full" style="padding:0" aria-label="蒂爾堡會館">
     <figure class="hf"><img src="img/h01.jpg" alt="白色的四層樓洋房" width="1600" height="1200" fetchpriority="high"></figure><div class="hero-t">
-      <h1>蒂爾堡會館<i>Villa Tilburg</i></h1>
+      <h1 class="long">蒂爾堡會館<i>Villa Tilburg</i></h1>
       <p class="lead">埔里青田街上，<br>一棟白色的洋房。</p>
       <p class="sub">一樓是吊燈和絨布沙發的客廳，樓上六間房，每間的牆色和椅子都不一樣。早餐在一樓餐廳吃，房裡有牙刷牙膏。</p>
       <p class="meta"><span>Google <b>4.8</b> 分・151 則評論</span><span>每晚 <b>$2,500</b> 起</span></p>
@@ -287,7 +288,7 @@ dialog::backdrop { background: rgb(10 24 30 / .6); }
     <small>16:00 以後入住・11:00 前退房・早餐 8:00～10:00</small>
   </form></div>
   <section id="rooms"><div class="wrap">
-    <div class="sh"><h2>六個房號，<br>六種顏色</h2><p>四人房在一樓，雙人房在二樓。每間的配色都不一樣，點房號看照片。</p></div>
+    <div class="sh"><h2>六個房號，<br>六種顏色</h2><p>四間四人房、兩間雙人房，每間的配色都不一樣。點房號看照片。</p></div>
     <div class="grid-rooms cols3"><button class="rc" type="button" data-room="0">
   <img src="img/r2-03.jpg" alt="121 號房" width="1600" height="1200" loading="lazy">
   <span class="rc-b"><b>121 號房</b><span class="rc-m">雙人床 ×2・最多 4 人</span><span class="rc-p">$3,500<small>起</small></span></span>
@@ -345,7 +346,7 @@ dialog::backdrop { background: rgb(10 24 30 / .6); }
   var R = [{"name": "121 號房", "max": 4, "size": "", "bed": "雙人床 ×2", "wk": 3500, "sat": null, "imgs": ["r2-03.jpg", "r2-01.jpg", "r2-02.jpg", "r2-04.jpg"], "feats": ["白色的房間，牆上掛著黑白水墨畫"], "extra": null, "base": null}, {"name": "122 號房", "max": 4, "size": "", "bed": "雙人床 ×2", "wk": 3500, "sat": null, "imgs": ["r3-06.jpg", "r3-01.jpg", "r3-02.jpg", "r3-03.jpg", "r3-04.jpg", "r3-05.jpg"], "feats": ["淺藍色的牆，配紫色絨布椅"], "extra": null, "base": null}, {"name": "131 號房", "max": 4, "size": "", "bed": "雙人床 ×2", "wk": 3500, "sat": null, "imgs": ["r4-01.jpg", "r4-02.jpg", "r4-03.jpg", "r4-04.jpg", "r4-05.jpg", "r4-06.jpg"], "feats": ["有一張吊椅和粉紅色沙發"], "extra": null, "base": null}, {"name": "151 號房", "max": 4, "size": "", "bed": "雙人床 ×2", "wk": 3500, "sat": null, "imgs": ["r5-06.jpg", "r5-01.jpg", "r5-02.jpg", "r5-03.jpg", "r5-04.jpg", "r5-05.jpg", "r5-07.jpg"], "feats": ["鵝黃色的牆，浴室有獨立浴缸"], "extra": null, "base": null}, {"name": "201 號房", "max": 2, "size": "", "bed": "雙人床", "wk": 2500, "sat": null, "imgs": ["r1-01.jpg", "r1-02.jpg"], "feats": ["白色圓弧牆的雙人房"], "extra": null, "base": null}, {"name": "225 號房", "max": 2, "size": "", "bed": "雙人床", "wk": 2500, "sat": null, "imgs": ["r6-01.jpg", "r6-02.jpg", "r6-03.jpg", "r6-04.jpg", "r6-05.jpg"], "feats": ["簡單的雙人房，牆上掛著老機車的畫"], "extra": null, "base": null}];
   var $ = function (s, r) { return (r || document).querySelector(s); };
   var $$ = function (s, r) { return [].slice.call((r || document).querySelectorAll(s)); };
-  var fmt = function (n) { return '$' + n.toLocaleString('en-US'); };
+  var fmt = function (n) { return n == null ? '請洽民宿' : '$' + n.toLocaleString('en-US'); };
   var iso = function (d) { return d.toISOString().slice(0, 10); };
   var day = 864e5;
   function nights(ci, co) {
@@ -354,6 +355,7 @@ dialog::backdrop { background: rgb(10 24 30 / .6); }
     return out;
   }
   function cost(r, ci, co) {
+    if (!r.wk) return null;
     var ppl = +(document.getElementById('b-ppl') || {}).value || 2;
     var ex = r.extra ? Math.max(0, ppl - (r.base || 2)) * r.extra : 0;
     return nights(ci, co).reduce(function (s, d) { return s + (d.getUTCDay() === 6 ? (r.sat || r.wk) : r.wk) + ex; }, 0);
@@ -376,7 +378,7 @@ dialog::backdrop { background: rgb(10 24 30 / .6); }
     ri = i; var r = R[i];
     $('#rd-name').textContent = r.name;
     $('#rd-list').innerHTML = [r.bed, (r.size ? r.size + '，' : '') + '最多 ' + r.max + ' 人'].concat(r.feats || []).filter(Boolean).map(function (x) { return '<li>' + x + '</li>'; }).join('');
-    $('#rd-price').innerHTML = r.sat ? '<div><small>平日（週日～週五）</small><b>' + fmt(r.wk) + '</b></div><div><small>週六</small><b>' + fmt(r.sat) + '</b></div>' : '<div><small>每晚</small><b>' + fmt(r.wk) + ' 起</b></div>';
+    $('#rd-price').innerHTML = !r.wk ? '<div><small>房價</small><b>請洽民宿</b></div>' : r.sat ? '<div><small>平日（週日～週五）</small><b>' + fmt(r.wk) + '</b></div><div><small>週六</small><b>' + fmt(r.sat) + '</b></div>' : '<div><small>每晚</small><b>' + fmt(r.wk) + ' 起</b></div>';
     $('#rd-th').innerHTML = r.imgs.map(function (s, j) { return '<button type="button" data-k="' + j + '" aria-label="第 ' + (j + 1) + ' 張"><img src="img/' + s + '" alt="" loading="lazy"></button>'; }).join('');
     show(0); if (!rd.open) rd.showModal();
   }
