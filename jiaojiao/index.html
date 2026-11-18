@@ -83,9 +83,17 @@ h2 { font: 700 clamp(28px, 3vw, 40px)/1.2 var(--head); margin: 0 0 20px; }
 .menu-grid { display: grid; grid-template-columns: 1fr 360px; gap: var(--gap); align-items: start; }
 .cats { columns: 2 280px; column-gap: var(--gap); }
 .menu-grid.solo { grid-template-columns: 1fr; }
-.menu-grid.solo .cats { columns: 3 260px; }
-.menu-grid.solo .cats.c3 { grid-template-columns: repeat(3, 1fr); }
+/* solo: one menu sheet, categories side by side in equal columns, so uneven lists never leave holes */
+.menu-grid.solo .cats { columns: auto; display: grid; grid-template-columns: repeat(var(--n), 1fr); gap: 0; background: var(--surface); border-radius: 12px; padding: 6px 0; }
+.menu-grid.solo .cat { background: none; border-radius: 0; margin: 0; padding: 18px 24px 14px; }
+.menu-grid.solo .cat + .cat { border-left: 1px solid color-mix(in srgb, var(--ink) 14%, transparent); }
 .menu-grid.solo .cats.c3 .cat:nth-child(3) { grid-column: auto; }
+.menu-grid.solo + .mnote, .menu-grid .mnote { margin-top: 12px; }
+@media (max-width: 1000px) { .menu-grid.solo .cats { grid-template-columns: repeat(min(var(--n), 2), 1fr); }
+  .menu-grid.solo .cat:nth-child(odd) { border-left: 0; }
+  .menu-grid.solo .cat:nth-child(n+3) { border-top: 1px solid color-mix(in srgb, var(--ink) 14%, transparent); } }
+@media (max-width: 640px) { .menu-grid.solo .cats { grid-template-columns: 1fr; }
+  .menu-grid.solo .cat + .cat { border-left: 0; border-top: 1px solid color-mix(in srgb, var(--ink) 14%, transparent); } }
 .cats.c3 { columns: auto; display: grid; grid-template-columns: 1fr 1fr; gap: 0 var(--gap); }
 .cats.c3 .cat:nth-child(3) { grid-column: 1 / -1; }
 @media (max-width: 760px) { .cats.c3 { grid-template-columns: 1fr; } }
@@ -230,7 +238,7 @@ footer p { margin: 0; font-size: 16px; color: var(--muted); max-width: 62ch; }
   <section id="menu" aria-labelledby="h-menu">
     <h2 id="h-menu">菜單</h2>
     <div class="menu-grid solo">
-      <div><div class="cats"><div class="cat rv"><h3>定食<small>附沙拉或小菜、熱湯</small></h3><ul><li><span class="n">雞排咖哩定食</span><span class="p">$280</span></li><li><span class="n">豚肉堡堡定食</span><span class="p">$250</span></li><li><span class="n">薑燒香豚定食</span><span class="p">$210</span></li><li><span class="n">和風豚丼定食</span><span class="p">$210</span></li><li><span class="n">今日特餐<em>例如烤魚定食</em></span></li></ul></div><div class="cat rv"><h3>拉麵<small>不附湯</small></h3><ul><li><span class="n">味噌豚骨拉麵</span><span class="p">$190</span></li></ul></div></div><p class="mnote">價格取自 Google 地圖上的菜單照片，可能已經調整，請以店內為準。</p></div>
+      <div><div class="cats" style="--n:2"><div class="cat rv"><h3>定食<small>附沙拉或小菜、熱湯</small></h3><ul><li><span class="n">雞排咖哩定食</span><span class="p">$280</span></li><li><span class="n">豚肉堡堡定食</span><span class="p">$250</span></li><li><span class="n">薑燒香豚定食</span><span class="p">$210</span></li><li><span class="n">和風豚丼定食</span><span class="p">$210</span></li><li><span class="n">今日特餐<em>例如烤魚定食</em></span></li></ul></div><div class="cat rv"><h3>拉麵<small>不附湯</small></h3><ul><li><span class="n">味噌豚骨拉麵</span><span class="p">$190</span></li></ul></div></div><p class="mnote">價格取自 Google 地圖上的菜單照片，可能已經調整，請以店內為準。</p></div>
       
     </div>
   </section>

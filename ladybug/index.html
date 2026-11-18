@@ -83,9 +83,17 @@ h2 { font: 700 clamp(28px, 3vw, 40px)/1.2 var(--head); margin: 0 0 20px; }
 .menu-grid { display: grid; grid-template-columns: 1fr 360px; gap: var(--gap); align-items: start; }
 .cats { columns: 2 280px; column-gap: var(--gap); }
 .menu-grid.solo { grid-template-columns: 1fr; }
-.menu-grid.solo .cats { columns: 3 260px; }
-.menu-grid.solo .cats.c3 { grid-template-columns: repeat(3, 1fr); }
+/* solo: one menu sheet, categories side by side in equal columns, so uneven lists never leave holes */
+.menu-grid.solo .cats { columns: auto; display: grid; grid-template-columns: repeat(var(--n), 1fr); gap: 0; background: var(--surface); border-radius: 12px; padding: 6px 0; }
+.menu-grid.solo .cat { background: none; border-radius: 0; margin: 0; padding: 18px 24px 14px; }
+.menu-grid.solo .cat + .cat { border-left: 1px solid color-mix(in srgb, var(--ink) 14%, transparent); }
 .menu-grid.solo .cats.c3 .cat:nth-child(3) { grid-column: auto; }
+.menu-grid.solo + .mnote, .menu-grid .mnote { margin-top: 12px; }
+@media (max-width: 1000px) { .menu-grid.solo .cats { grid-template-columns: repeat(min(var(--n), 2), 1fr); }
+  .menu-grid.solo .cat:nth-child(odd) { border-left: 0; }
+  .menu-grid.solo .cat:nth-child(n+3) { border-top: 1px solid color-mix(in srgb, var(--ink) 14%, transparent); } }
+@media (max-width: 640px) { .menu-grid.solo .cats { grid-template-columns: 1fr; }
+  .menu-grid.solo .cat + .cat { border-left: 0; border-top: 1px solid color-mix(in srgb, var(--ink) 14%, transparent); } }
 .cats.c3 { columns: auto; display: grid; grid-template-columns: 1fr 1fr; gap: 0 var(--gap); }
 .cats.c3 .cat:nth-child(3) { grid-column: 1 / -1; }
 @media (max-width: 760px) { .cats.c3 { grid-template-columns: 1fr; } }
@@ -230,7 +238,7 @@ footer p { margin: 0; font-size: 16px; color: var(--muted); max-width: 62ch; }
   <section id="menu" aria-labelledby="h-menu">
     <h2 id="h-menu">菜單</h2>
     <div class="menu-grid solo">
-      <div><div class="cats c3"><div class="cat rv"><h3>焗烤與漢堡排<small>低碳料理全餐</small></h3><ul><li><span class="n">焗烤起司櫛瓜<em>雙色起司烤櫛瓜、季節蔬果</em></span><span class="p">$300</span></li><li><span class="n">日式豆腐漢堡排<em>豆腐豬肉排、起司、季節蔬果</em></span><span class="p">$300</span></li></ul></div><div class="cat rv"><h3>雞肉<small>低碳料理全餐・辣可調</small></h3><ul><li><span class="n">香辣雞肉蔬果煎<em>燻雞蘋果、櫛瓜、季節蔬果</em></span><span class="p">$320</span></li><li><span class="n">藜麥毛豆椒麻雞<em>燻雞蘋果、藜麥毛豆糙米飯</em></span><span class="p">$320</span></li></ul></div><div class="cat rv"><h3>歐姆蛋<small>低碳料理全餐</small></h3><ul><li><span class="n">藜麥毛豆歐姆蛋<em>起司歐姆蛋、蔬食咖哩</em></span><span class="p">$320</span></li><li><span class="n">牛肉醬歐姆蛋<em>起司歐姆蛋、茄醬牛肉，辣可調</em></span><span class="p">$320</span></li></ul></div></div><p class="mnote">全餐副餐：優格、綜合生菜、芥末優格醬、小點、開胃菜，隨季節更換。價格以店內菜單為準。</p></div>
+      <div><div class="cats c3" style="--n:3"><div class="cat rv"><h3>焗烤與漢堡排<small>低碳料理全餐</small></h3><ul><li><span class="n">焗烤起司櫛瓜<em>雙色起司烤櫛瓜、季節蔬果</em></span><span class="p">$300</span></li><li><span class="n">日式豆腐漢堡排<em>豆腐豬肉排、起司、季節蔬果</em></span><span class="p">$300</span></li></ul></div><div class="cat rv"><h3>雞肉<small>低碳料理全餐・辣可調</small></h3><ul><li><span class="n">香辣雞肉蔬果煎<em>燻雞蘋果、櫛瓜、季節蔬果</em></span><span class="p">$320</span></li><li><span class="n">藜麥毛豆椒麻雞<em>燻雞蘋果、藜麥毛豆糙米飯</em></span><span class="p">$320</span></li></ul></div><div class="cat rv"><h3>歐姆蛋<small>低碳料理全餐</small></h3><ul><li><span class="n">藜麥毛豆歐姆蛋<em>起司歐姆蛋、蔬食咖哩</em></span><span class="p">$320</span></li><li><span class="n">牛肉醬歐姆蛋<em>起司歐姆蛋、茄醬牛肉，辣可調</em></span><span class="p">$320</span></li></ul></div></div><p class="mnote">全餐副餐：優格、綜合生菜、芥末優格醬、小點、開胃菜，隨季節更換。價格以店內菜單為準。</p></div>
       
     </div>
   </section>

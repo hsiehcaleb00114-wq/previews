@@ -83,9 +83,17 @@ h2 { font: 700 clamp(28px, 3vw, 40px)/1.2 var(--head); margin: 0 0 20px; }
 .menu-grid { display: grid; grid-template-columns: 1fr 360px; gap: var(--gap); align-items: start; }
 .cats { columns: 2 280px; column-gap: var(--gap); }
 .menu-grid.solo { grid-template-columns: 1fr; }
-.menu-grid.solo .cats { columns: 3 260px; }
-.menu-grid.solo .cats.c3 { grid-template-columns: repeat(3, 1fr); }
+/* solo: one menu sheet, categories side by side in equal columns, so uneven lists never leave holes */
+.menu-grid.solo .cats { columns: auto; display: grid; grid-template-columns: repeat(var(--n), 1fr); gap: 0; background: var(--surface); border-radius: 12px; padding: 6px 0; }
+.menu-grid.solo .cat { background: none; border-radius: 0; margin: 0; padding: 18px 24px 14px; }
+.menu-grid.solo .cat + .cat { border-left: 1px solid color-mix(in srgb, var(--ink) 14%, transparent); }
 .menu-grid.solo .cats.c3 .cat:nth-child(3) { grid-column: auto; }
+.menu-grid.solo + .mnote, .menu-grid .mnote { margin-top: 12px; }
+@media (max-width: 1000px) { .menu-grid.solo .cats { grid-template-columns: repeat(min(var(--n), 2), 1fr); }
+  .menu-grid.solo .cat:nth-child(odd) { border-left: 0; }
+  .menu-grid.solo .cat:nth-child(n+3) { border-top: 1px solid color-mix(in srgb, var(--ink) 14%, transparent); } }
+@media (max-width: 640px) { .menu-grid.solo .cats { grid-template-columns: 1fr; }
+  .menu-grid.solo .cat + .cat { border-left: 0; border-top: 1px solid color-mix(in srgb, var(--ink) 14%, transparent); } }
 .cats.c3 { columns: auto; display: grid; grid-template-columns: 1fr 1fr; gap: 0 var(--gap); }
 .cats.c3 .cat:nth-child(3) { grid-column: 1 / -1; }
 @media (max-width: 760px) { .cats.c3 { grid-template-columns: 1fr; } }
@@ -230,7 +238,7 @@ footer p { margin: 0; font-size: 16px; color: var(--muted); max-width: 62ch; }
   <section id="menu" aria-labelledby="h-menu">
     <h2 id="h-menu">菜單</h2>
     <div class="menu-grid">
-      <div><div class="cats"><div class="cat rv"><h3>肉桂捲<small>6 種口味</small></h3><ul><li><span class="n">原味</span><span class="p">$100</span></li><li><span class="n">奶油乳酪糖霜</span><span class="p">$120</span></li><li><span class="n">檸檬乳酪糖霜</span><span class="p">$120</span></li><li><span class="n">海鹽花生</span><span class="p">$120</span></li><li><span class="n">法式焦糖</span><span class="p">$120</span></li><li><span class="n">黑巧威士忌</span><span class="p">$140</span></li></ul></div><div class="cat rv"><h3>布丁</h3><ul><li><span class="n">日式昭和布丁<em>牛奶、雞蛋、香草籽，淋上焦糖</em></span><span class="p">$90</span></li><li><span class="n">大人味日式昭和布丁<em>再淋上 Espresso，苦中帶甜</em></span><span class="p">$110</span></li></ul></div><div class="cat rv"><h3>冰淇淋</h3><ul><li><span class="n">大人味冰淇淋<em>meiji 冰淇淋加 Espresso，就是阿芙佳朵</em></span><span class="p">$130</span></li><li><span class="n">巧克力脆脆冰淇淋<em>巧克力餅碎、脆脆燕麥、黑巧克力醬</em></span><span class="p">$130</span></li></ul></div><div class="cat rv"><h3>磅蛋糕<small>6 種口味</small></h3><ul><li><span class="n">鹽之花（原味蜂蜜）</span><span class="p">$60</span></li><li><span class="n">茉綠熱帶果乾</span><span class="p">$75</span></li><li><span class="n">焙茶酸櫻桃</span><span class="p">$75</span></li><li><span class="n">伯爵香橙</span><span class="p">$75</span></li><li><span class="n">錫蘭紅茶藍莓</span><span class="p">$75</span></li><li><span class="n">法芙娜可可</span><span class="p">$75</span></li></ul></div><div class="cat rv"><h3>咖啡<small>手沖・義式</small></h3><ul><li><span class="n">手沖單品<em>國外單品和台灣豆，豆單會換</em></span></li><li><span class="n">拿鐵、花神<em>冰的熱的都有</em></span></li></ul></div></div><p class="mnote">甜點限量供應，依當日店內公告為主。甜點價格取自 Google 地圖上的菜單照片，咖啡價格沒有公開資料。</p></div>
+      <div><div class="cats" style="--n:4"><div class="cat rv"><h3>肉桂捲<small>6 種口味</small></h3><ul><li><span class="n">原味</span><span class="p">$100</span></li><li><span class="n">奶油乳酪糖霜</span><span class="p">$120</span></li><li><span class="n">檸檬乳酪糖霜</span><span class="p">$120</span></li><li><span class="n">海鹽花生</span><span class="p">$120</span></li><li><span class="n">法式焦糖</span><span class="p">$120</span></li><li><span class="n">黑巧威士忌</span><span class="p">$140</span></li></ul></div><div class="cat rv"><h3>布丁</h3><ul><li><span class="n">日式昭和布丁<em>牛奶、雞蛋、香草籽，淋上焦糖</em></span><span class="p">$90</span></li><li><span class="n">大人味日式昭和布丁<em>再淋上 Espresso，苦中帶甜</em></span><span class="p">$110</span></li></ul></div><div class="cat rv"><h3>冰淇淋</h3><ul><li><span class="n">大人味冰淇淋<em>meiji 冰淇淋加 Espresso，就是阿芙佳朵</em></span><span class="p">$130</span></li><li><span class="n">巧克力脆脆冰淇淋<em>巧克力餅碎、脆脆燕麥、黑巧克力醬</em></span><span class="p">$130</span></li></ul></div><div class="cat rv"><h3>磅蛋糕<small>6 種口味</small></h3><ul><li><span class="n">鹽之花（原味蜂蜜）</span><span class="p">$60</span></li><li><span class="n">茉綠熱帶果乾</span><span class="p">$75</span></li><li><span class="n">焙茶酸櫻桃</span><span class="p">$75</span></li><li><span class="n">伯爵香橙</span><span class="p">$75</span></li><li><span class="n">錫蘭紅茶藍莓</span><span class="p">$75</span></li><li><span class="n">法芙娜可可</span><span class="p">$75</span></li></ul></div><div class="cat rv"><h3>咖啡<small>手沖・義式</small></h3><ul><li><span class="n">手沖單品<em>國外單品和台灣豆，豆單會換</em></span></li><li><span class="n">拿鐵、花神<em>冰的熱的都有</em></span></li></ul></div></div><p class="mnote">甜點限量供應，依當日店內公告為主。甜點價格取自 Google 地圖上的菜單照片，咖啡價格沒有公開資料。</p></div>
       
 <form class="widget" data-ui id="roll" aria-labelledby="w-h" onsubmit="return false">
   <h3 id="w-h">今天配什麼</h3>
